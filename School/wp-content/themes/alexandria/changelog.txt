@@ -1,0 +1,302 @@
+Version: 2.4.5
+------------------------------------------
+Added custom logo support.
+
+Version: 2.4.5
+------------------------------------------
+Fixed array merge error.
+
+Version: 2.4.4
+------------------------------------------
+CSS Aditions
+
+Version: 2.4.3
+------------------------------------------
+Fixed sanitization bugs
+
+Version: 2.4.2
+------------------------------------------
+Added missing options
+
+Version: 2.4.1
+------------------------------------------
+Switched theme options to customizer.
+
+Version: 2.3.7
+------------------------------------------
+Css Aditions.
+
+Version: 2.3.6
+------------------------------------------
+Removed backward compatibility.
+
+Version: 2.3.5
+------------------------------------------
+Reverting to 2.3.3 until I find the bug in 2.3.4.
+
+Version: 2.3.3
+------------------------------------------
+Css Aditions.
+
+Version: 2.3.2
+------------------------------------------
+Css Aditions.
+
+Version: 2.3.1
+------------------------------------------
+Css Aditions.
+
+Version: 2.3
+------------------------------------------
+Added Woocomerce support and new homepage layout.
+
+Version: 2.2.14
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.13
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.12
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.11
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.10
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.9
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.8
+------------------------------------------
+Css Aditions.
+
+Version: 2.2.7
+------------------------------------------
+Added new layout.
+
+Version: 2.2.6
+------------------------------------------
+Added new skin.
+
+Version: 2.2.5
+------------------------------------------
+Added new skin.
+
+Version: 2.2.4
+------------------------------------------
+Added new skin.
+
+Version: 2.2.3
+------------------------------------------
+Code clean up.
+
+Version: 2.2.2
+------------------------------------------
+Added new skin.
+
+Version: 2.2.1
+------------------------------------------
+Added new skin.
+
+Version: 2.2
+------------------------------------------
+Added core title tag support.
+
+Version: 2.1.7
+------------------------------------------
+Added new skin.
+
+Version: 2.1.5
+------------------------------------------
+Theme option page cleanup.
+
+Version: 2.1.4
+------------------------------------------
+Updated tiny nav script and translation fix.
+
+Version: 2.1.3
+------------------------------------------
+Bug fix in 2.1.2.
+
+Version: 2.1.2
+------------------------------------------
+Options framework fix for sane defaults.
+
+Version: 2.1.1
+------------------------------------------
+Changed conditional css loading function.
+
+Version: 2.1.0
+------------------------------------------
+Updated options framework.
+
+Version: 2.0.37
+------------------------------------------
+Added new skin.
+
+Version: 2.0.36
+------------------------------------------
+Added new skin.
+
+Version: 2.0.35
+------------------------------------------
+Added function_exists wrappers.
+
+Version: 2.0.34
+------------------------------------------
+Added missing alt attributes.
+
+Version: 2.0.33
+------------------------------------------
+Added new skin.
+
+Version: 2.0.32
+------------------------------------------
+Added new skin.
+
+Version: 2.0.31
+------------------------------------------
+Added new skin.
+
+Version: 2.0.30
+------------------------------------------
+Added styling support for contactform7 plugin.
+
+Version: 2.0.29
+------------------------------------------
+Added new skin.
+
+Version: 2.0.28
+------------------------------------------
+Removed empty translation strings.
+
+Version: 2.0.27
+------------------------------------------
+Added new skin.
+
+Version: 2.0.26
+------------------------------------------
+Removed theme options link from admin bar.
+
+Version: 2.0.25
+------------------------------------------
+Added new skin.
+
+Version: 2.0.24
+------------------------------------------
+Added new skin.
+
+Version: 2.0.23
+------------------------------------------
+Added editor style.
+
+Version: 2.0.21
+------------------------------------------
+Minor edit to default text on homepage.
+
+Version: 2.0.20
+------------------------------------------
+Made custom header full width.
+
+Version: 2.0.19.1
+------------------------------------------
+Moved content width into setup function.
+
+Version: 2.0.18
+------------------------------------------
+Added some prefixes.
+
+Version: 2.0.17
+------------------------------------------
+Deleted some unused code.
+
+Version: 2.0.16
+------------------------------------------
+CSS Additions.
+
+Version: 2.0.15
+------------------------------------------
+Added new skin.
+
+Version: 2.0.14
+------------------------------------------
+Added new skin.
+
+Version: 2.0.13
+------------------------------------------
+Added css for LTE8.
+
+Version: 2.0.12
+------------------------------------------
+Added css for LTE9.
+
+Version: 2.0.11
+------------------------------------------
+More child theme friendly.
+
+Version: 2.0.10
+------------------------------------------
+Added html5 shiv.
+
+Version: 2.0.9
+------------------------------------------
+Added new skin.
+
+Version: 2.0.8
+------------------------------------------
+Added new skin.
+
+Version: 2.0.7
+------------------------------------------
+Added new skin.
+
+Version: 2.0.6
+------------------------------------------
+Added new skin.
+
+Version: 2.0.5
+------------------------------------------
+Added new skin.
+
+Version: 2.0.4
+------------------------------------------
+Fixed issue with responsive menu not showing up on small screen devices.
+
+Version: 2.0.3
+------------------------------------------
+Modifications to theme options page, removed redirect to theme options on activation and fixed double date issue on posts.
+
+Version: 2.0.2
+------------------------------------------
+Added dropdown menu support.
+
+Version: 2.0.0
+------------------------------------------
+Converted theme to HTML5 & CSS3.
+
+
+Version: 1.0.10
+------------------------------------------
+Added on/off switches for quote sections.
+
+
+Version: 1.0.9
+------------------------------------------
+Added theme url.
+Made theme more child theme friendly and included a sample child theme.
+Changed theme option page wording.
+
+
+Version: 1.0.8
+------------------------------------------
+
+Added Translation files.
+Fixed Vertical scrol bar issue in chrome for social section.

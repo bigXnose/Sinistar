@@ -1,0 +1,115 @@
+#wrapper-two{
+	max-width:1250px;
+	margin:2% auto;
+}	
+.responsive-container{
+	width:100%;
+}
+.site-header-half-width-logo{
+	width:38%;
+	margin:3% 3%;
+	float:left;	
+}
+.site-header-half-width-logo .site-title, .site-header-half-width-logo .site-description{
+	text-align:left;
+}
+.site-branding{
+	padding:5% 0;
+}
+.site-header-half-width-logo .site-branding{
+	text-align:left;
+}
+.site-header-half-width-nav{
+	width:50%;
+	float:left;
+	margin:5.5% 3% 1.5% 3%;
+	background:none;
+}
+.site-title a, .site-title a:visited{
+	font-size: 72px;
+	font-size: 7.2rem;
+}
+.main-navigation {
+	padding:1.5% 0;
+}
+.tinynav { display: none }
+#main-nav { display: block }
+.content-area {
+    margin: 2% 4% 2% 6%;
+    width: 53%;
+	float:left;	
+}
+.site-content{
+	width:100%;
+	margin:0;	
+}
+.paging-navigation .nav-previous{
+	width:50%;
+	margin:0;	
+}
+.paging-navigation .nav-next{
+	width:50%;
+	margin:0;	
+}
+.post-navigation .nav-previous{
+	width:50%;
+}
+.post-navigation .nav-next{
+	width:50%;
+}
+.widget-area{
+	width:32%;
+	margin:2% 2% 2% 0;	
+	float:left;
+	padding:2% 0;
+}
+.biz0ne-products-services-item{
+	float:left;
+	width:33.33%;	
+	margin:0;
+}
+.biz0ne-quote{
+	margin:0 auto 2% auto;
+}
+/* biznine Section */
+.biznine-products-item{
+	width:33.33%;
+	float:left;
+	padding:3% 0 0 0;
+}
+.biznine-products-item-x-y{
+	background:url(images/b10.png) bottom repeat-x;
+	background:url(images/b10.png) bottom repeat-x, url(images/v10.png) right repeat-y;
+}
+.biznine-products-item-title{
+	min-height:65px;	
+}
+.biznine-products-item-desc{
+	min-height:120px;	
+}
+.biznine-clients{
+	padding:2% 0;
+}
+.site-info{
+	width:40%;
+	padding:5% 0;
+}
+.footer-widget-two{
+	width:30%;
+	padding:5% 0;
+}
+.footer-widget-three{
+	width:20%;
+	padding:5% 0;
+}
+.site-info h3{
+	text-align:left;
+}
+.site-info p{
+	text-align:left;
+}
+.footer-search{
+	width:64%;
+	margin:20px 8% 5px 8%;	
+}
+

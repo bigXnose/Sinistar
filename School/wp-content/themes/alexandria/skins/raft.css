@@ -1,0 +1,215 @@
+.site-header {
+    background:url(images/raft/site_header.png);
+}
+.tinynav { background:#956338; color:#fff;; border:1px solid #956338; }
+
+.main-navigation li:hover {
+	background:#956338;
+}
+.main-navigation a {
+	color:#fff;
+}
+.main-navigation ul ul {
+	background:#956338;
+}
+.main-navigation ul ul a {
+	color:#fff;
+}
+.main-navigation ul ul li:hover {
+	background:#8c5d35;
+}
+.main-navigation li.current_page_item,
+.main-navigation li.current-menu-item {
+	background:#956338;	
+}
+.nav-border-top{
+	border-top:1px solid #956338;
+}
+.site-slider{
+	background:url(images/raft/header_bg.png);
+}
+
+.site-slider-slider-one-text-button a {
+    background: none repeat scroll 0 0 #a77143;
+    border-bottom: 4px solid #956338;
+    color: #fff;
+}
+
+
+
+.biz0ne-products-services-img {
+    background: none repeat scroll 0 0 #ccccc5;
+}
+.biz0ne-quote, .biztwo-quote {
+    background:#ccccc5;
+	border:none;
+}
+.biz0ne-quote-text {
+    background: url(images/raft/quote.png) no-repeat;
+}
+.biz0ne-quote-name span {
+    background:#bfbfb9;
+}
+.biztwo-portfolio {
+    background:#ccccc5;
+}
+.widget {
+	color:#000;
+}
+.widget a{
+	color:#000;
+}
+.widget ul li a{
+	color:#000;
+}
+.widget-area {
+    background:#ccccc5;
+}
+.widget ul li{
+	border-bottom:1px solid #bfbfb9;
+}
+.search-field{
+	background:#bfbfb9 !important;
+}
+.widget select{
+	background:#bfbfb9;
+}
+
+
+/* =Content
+----------------------------------------------- */
+.more-link{
+	background:#ccccc5;
+}
+.page-links a{
+	background:#ccccc5;
+}
+.post .entry-title{
+	border-bottom:1px solid #ccccc5;
+}
+.entry-meta{
+	border-bottom:1px solid #ccccc5;	
+}
+.entry-meta-bottom{
+	border-top:1px solid #ccccc5;
+}
+.entry-meta-bottom-item{
+	border-bottom:1px solid #ccccc5;
+}
+.entry-meta-bottom-item a{
+	background:#ccccc5;
+}
+pre{
+	background:#ccccc5;
+}
+blockquote{
+	border-left: 1em solid #ccccc5;
+}
+
+/* =Media
+----------------------------------------------- */
+.wp-caption {
+	border: 1px solid #ccccc5;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+.post-navigation{
+	background:#ccccc5;
+}
+.post-navigation .nav-previous{
+	background:url(images/single_np_prev.png) no-repeat left;
+}
+.post-navigation .nav-next{
+	background:url(images/single_np_next.png) no-repeat right;		
+}
+.paging-navigation .nav-previous{
+	background:#ccccc5 url(images/single_np_prev.png) no-repeat left center;
+}
+.paging-navigation .nav-next{
+	background:#ccccc5 url(images/single_np_next.png) no-repeat right center;
+}
+
+/* =Comments
+----------------------------------------------- */
+.comments-area{
+	background:#ccccc5;
+}
+.comment-navigation .nav-previous a{
+	background:#c5bb9e;
+}
+.comment-navigation .nav-next a{
+	background:#c5bb9e;
+}
+.comment-author cite{
+	background:url(images/ten.png);
+}
+.comment-body .reply a{
+	background:#000;
+	color:#fff;
+}
+
+
+
+
+
+
+.footer-social {
+    background: none repeat scroll 0 0 #5d5d58;
+}
+.site-footer {
+    background:url(images/raft/footer_bg.png);
+}
+.site-info h3 a{
+	color:#fff;
+}
+.site-info p {
+    color:#fff;
+}
+.site-info p a {
+    color:#fff;
+}
+/* Footer Widgets */
+.site-footer .widget {
+	color:#fff;
+}
+.site-footer .widget a{
+	color:#fff;
+}
+.site-footer .widget h1 {
+	color:#fff;
+}
+.site-footer .widget ul li{
+	border-bottom:1px solid #4a4a47;
+}
+.site-footer .widget ul li a{
+	color:#fff;
+}
+.site-footer .search-field{
+	background:#4a4a47 !important;
+	color:#fff;
+}
+.site-footer .search-submit{
+	background:#000 !important;
+	color:#fff !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #4a4a47;
+}
+
+.bizfour-products-services-item{
+	background:#ccccc5;
+}
+.bizfour-products-services-img{
+	background:#ccccc5;	
+}
+.bizfour-quote{
+	border:1px solid #ccccc5;
+}
+.bizfour-quote-text{
+	background:url(images/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#ccccc5;
+}

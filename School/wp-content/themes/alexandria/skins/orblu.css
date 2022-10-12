@@ -1,0 +1,266 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #fff;	
+}
+a {
+	color:#fff;
+}
+a:visited {
+	color:#fff;
+}
+a:hover,
+a:focus,
+a:active {
+	color:#f5f4f4;
+}
+.site-header {
+    background:url(images/orblu/logo_section.png);
+}
+.tinynav { background:#931c1c; color:#fff; border:1px solid #931c1c; }
+
+.main-navigation li:hover {
+	background:#8c1919;
+}
+.main-navigation a {
+	color:#fff;
+}
+.main-navigation ul ul {
+	background:#8c1919;
+}
+.main-navigation ul ul a {
+	color:#fff;
+}
+.main-navigation ul ul li:hover {
+	background:#741111;
+}
+.main-navigation li.current_page_item,
+.main-navigation li.current-menu-item {
+	background:#8c1919;	
+}
+.nav-border-top{
+	border-top:1px solid #8c1919;
+}
+.site-slider{
+	background:url(images/orblu/header.png);
+}
+.site-slider-slider-one-text-heading{
+	color:#fff;
+	text-shadow:none;
+}
+.site-slider-slider-one-text-description{
+	color:#fff;
+}
+.site-slider-slider-one-text-button a{
+	color:#fff;	
+	border-bottom: 4px solid #b62525;
+	background:#d12f2f;
+}
+.biz0ne-products-services-img {
+    background: none repeat scroll 0 0 #47505f;
+}
+.biz0ne-quote, .biztwo-quote {
+    background:#47505f;
+	border:none;
+}
+.biz0ne-quote-text {
+    background: url(images/orblu/quote.png) no-repeat;
+}
+.biz0ne-quote-name span {
+    background:#393939;
+}
+.biztwo-portfolio {
+    background:#47505f;
+}
+.widget {
+	color:#fff;
+}
+.widget a{
+	color:#fff;
+}
+.widget ul li a{
+	color:#fff;
+}
+.widget-area {
+    background:#47505f;
+}
+.widget ul li{
+	border-bottom:1px solid #393939;
+}
+.search-field{
+	background:#393939 !important;
+}
+.widget select{
+	background:#393939;
+}
+
+
+/* =Content
+----------------------------------------------- */
+.more-link{
+	background:#47505f;
+}
+.page-links a{
+	background:#47505f;
+}
+.post .entry-title{
+	border-bottom:1px solid #47505f;
+}
+.entry-meta{
+	border-bottom:1px solid #47505f;	
+}
+.entry-meta-bottom{
+	border-top:1px solid #47505f;
+}
+.entry-meta-bottom-item{
+	border-bottom:1px solid #47505f;
+}
+.entry-meta-bottom-item a{
+	background:#47505f;
+}
+pre{
+	background:#47505f;
+}
+blockquote{
+	border-left: 1em solid #47505f;
+}
+
+/* =Media
+----------------------------------------------- */
+.wp-caption {
+	border: 1px solid #47505f;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+.post-navigation{
+	background:#47505f;
+}
+.post-navigation .nav-previous{
+	background:url(images/single_np_prev.png) no-repeat left;
+}
+.post-navigation .nav-next{
+	background:url(images/single_np_next.png) no-repeat right;		
+}
+.paging-navigation .nav-previous{
+	background:#47505f url(images/single_np_prev.png) no-repeat left center;
+}
+.paging-navigation .nav-next{
+	background:#47505f url(images/single_np_next.png) no-repeat right center;
+}
+
+/* =Comments
+----------------------------------------------- */
+.comments-area{
+	background:#47505f;
+}
+.comment-navigation .nav-previous a{
+	background:#c5bb9e;
+}
+.comment-navigation .nav-next a{
+	background:#c5bb9e;
+}
+.comment-author cite{
+	background:url(images/ten.png);
+}
+.comment-body .reply a{
+	background:#000;
+	color:#fff;
+}
+
+.footer-social {
+    background:url(images/orblu/social.png);
+}
+.site-footer {
+    background:url(images/orblu/footer.png);
+}
+.site-info h3 a{
+	color:#fff;
+}
+.site-info p {
+    color:#fff;
+}
+.site-info p a {
+    color:#fff;
+}
+/* Footer Widgets */
+.site-footer .widget {
+	color:#fff;
+}
+.site-footer .widget a{
+	color:#fff;
+}
+.site-footer .widget h1 {
+	color:#fff;
+}
+.site-footer .widget ul li{
+	border-bottom:1px solid #322222;
+}
+.site-footer .widget ul li a{
+	color:#fff;
+}
+.site-footer .search-field{
+	background:#322222 !important;
+	color:#fff;
+}
+.site-footer .search-submit{
+	background:#000 !important;
+	color:#fff !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #322222;
+}
+.wpcf7-text{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;
+}
+.wpcf7-textarea{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;
+}
+.wpcf7-select{
+	background:#4c4c4c !important;
+	border:none;
+}
+.wpcf7-quiz{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;
+}
+.wpcf7-date{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;	
+}
+.wpcf7-number{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;	
+}
+.wpcf7-captchar{
+	background:#4c4c4c !important;
+	border:3px solid #3e3e3e !important;	
+}
+.wpcf7-submit{
+	background:#000 !important;
+	color:#fff !important;
+	padding:1.0em 3em !important;
+	box-shadow:none !important;
+	text-shadow:none !important;
+}
+
+.bizfour-products-services-item{
+	background:#47505f;
+}
+.bizfour-products-services-img{
+	background:#47505f;	
+}
+.bizfour-quote{
+	border:1px solid #47505f;
+}
+.bizfour-quote-text{
+	background:url(images/orblu/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#47505f;
+}

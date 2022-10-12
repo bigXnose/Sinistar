@@ -1,0 +1,16 @@
+/**
+ * Style for use in TinyMCE editor for RTL languages
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+body {
+	font-family: Tahoma, Arial;
+	font-size: 9pt;
+}

@@ -1,0 +1,546 @@
+# Translation of Dinky theme in Arabic
+# This file is distributed under the same license as the Dinky package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-09-25 16:02+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+"Project-Id-Version: Dinky\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Misam Saki <info@misam.ir>\n"
+"Language-Team: \n"
+
+#: Don't traslate it. You must replaced it by needed fonts to load from google
+msgid ""
+"Open+Sans:400italic,700italic,400,700|Droid+Serif:400italic,700italic,400,700"
+msgstr ""
+"Open+Sans:400italic,700italic,400,700|Droid"
+"+Serif:400italic,700italic,400,700|Droid+Arabic"
+"+Naskh:400italic,700italic,400,700"
+
+#: social.php:x
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: social.php:x
+msgid "Feed"
+msgstr "تغذيات"
+
+#: social.php:x
+msgid "Twitter"
+msgstr "التويتر"
+
+#: social.php:x
+msgid "Facebook"
+msgstr "الفيسبوك"
+
+#: social.php:x
+msgid "Google+"
+msgstr "الجوجل+"
+
+#: social.php:x
+msgid "Linkedin"
+msgstr "الينكدين"
+
+#: social.php:x
+msgid "Github"
+msgstr "Github"
+
+#: social.php:x
+msgid "Instagram"
+msgstr "Instagram"
+
+#: social.php:x
+msgid "Foursquare"
+msgstr "Instagram"
+
+#: social.php:x
+msgid "Youtube"
+msgstr "یوتیوب"
+
+#: social.php:x
+msgid "Dribbble"
+msgstr "دریبل"
+
+#: social.php:x
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: social.php:x
+msgid "Flickr"
+msgstr "Flickr"
+
+#: social.php:x
+msgid "Blogger"
+msgstr "Blogger"
+
+#: social.php:x
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: social.php:x
+msgid "Fivehundredpix"
+msgstr "Fivehundredpix"
+
+#: social.php:x
+msgid "Reddit"
+msgstr "Reddit"
+
+#: social.php:x
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: social.php:x
+msgid "Smugmug"
+msgstr "Smugmug"
+
+#: social.php:x
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: footer.php:x
+msgid ""
+"<span lang=\"en-US\">&copy;</span> Copyright %s <a href=\"%s\" title=\"%s\">"
+"%s</a>"
+msgstr ""
+"<span lang=\"en-US\">&copy;</span> حق النشر %s <a href=\"%s\" title=\"%s\">"
+"%s</a>"
+
+#: footer.php:x
+msgid ""
+"<strong>Dinky</strong> WordPress Theme - Theme By <a href=\"http://misam.ir/"
+"\" title=\"Misam Saki\">Misam Saki</a>"
+msgstr ""
+"قالب وردپرس <strong>دینکی (أنيق)</strong> - قالب بواسطة <a href=\"http://"
+"misam.ir/\" title=\"میثم ساکی\">میثم ساکی</a>"
+
+#: footer.php:x
+msgid "To Top"
+msgstr "الى الأعلى"
+
+#: content-404.php:x
+msgid "Not Found"
+msgstr "لم يتم العثور على"
+
+#: content-404.php:x
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "يبدو أننا لا يمكن أن تجد ما كنت تبحث عنه. تبحث ربما يمكن أن تساعد."
+
+#: page-no_sidebar.php:x
+msgid "No Sidebar"
+msgstr "لا عمود الجانبي"
+
+#: page-no_sidebar_full_main.php:x
+msgid "No Sidebar - Full Main"
+msgstr "لا عمود الجانبي - العمود الرئيسي الكامل"
+
+#: author.php:x
+msgid "Author Archives: %s"
+msgstr "الكاتب الأرشيف: %s"
+
+#: author-bio.php:x
+msgid "About %s"
+msgstr "حول %s"
+
+#: category.php:x
+msgid "Category Archives: %s"
+msgstr "فئة الأرشيف: %s"
+
+#: content-none.php:x
+msgid "Nothing Found"
+msgstr "العثور على أي شيء"
+
+#: content-none.php:x
+msgid "No posts to display."
+msgstr "توجد مشاركات لعرضها."
+
+#: search.php:x
+msgid "Search results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: content-no_result.php:x
+msgid "No result Found"
+msgstr "لا نتائج لبحثك"
+
+#: content-no_result.php:x
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"آسف، ولكن لا شيء يقابل معايير البحث الخاصة بك. يرجى المحاولة مرة أخرى مع بعض "
+"كلمات مختلفة."
+
+#: tag.php:x
+msgid "Tag Archives: %s"
+msgstr "الوسم الأرشيف: s%"
+
+#: taxonomy-post_format.php:x
+msgid "%s Archives"
+msgstr "%s أرشيف"
+
+#: content.php:x
+msgid "Permalink to %s"
+msgstr "رابط دائم بيرمالينك ل %s"
+
+#: content.php:x
+msgid "Leave a reply"
+msgstr "ترك الرد"
+
+#: content.php:x
+msgid "1 Reply"
+msgstr "رد واحد"
+
+#: content.php:x
+msgid "% Replies"
+msgstr "% ردات"
+
+#: content.php:x
+msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+msgstr "إقرأ المزيد <span class=\"meta-nav\">&larr;</span>"
+
+#: content.php:x
+msgid "Pages"
+msgstr "صفحات"
+
+#: content.php:x
+msgid "(Edit)"
+msgstr "(حرر)"
+
+#: content.php:x
+msgid "&larr; Previous"
+msgstr "&rarr; السابق"
+
+#: content.php:x
+msgid "Next &rarr;"
+msgstr "التالي &larr;"
+
+#: comments.php:x
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "هذه الوظيفة هي كلمة السر المحمية. أدخل كلمة المرور لمشاهدة أي تعليقات."
+
+#: comments.php:x
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgstr "تعليق واحد على &ldquo;%2$s&rdquo;"
+
+#: comments.php:x
+msgid "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr "%1$s تعليقات على &ldquo;%2$s&rdquo;"
+
+#: comments.php:x
+msgid "&larr; Older Comments"
+msgstr "&rarr; أقدم تعليقات"
+
+#: comments.php:x
+msgid "Newer Comments &rarr;"
+msgstr "أحدث التعليقات &larr;"
+
+#: comments.php:x
+msgid "Pings&#47;Trackbacks"
+msgstr "الأصوات و تركبكس"
+
+#: comments.php:x
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s لل \"%3$s\""
+
+#: comments.php:x
+msgid "Name"
+msgstr "اسم"
+
+#: comments.php:x
+msgid "Website"
+msgstr "موقع"
+
+#: comments.php:x
+msgid "Reply"
+msgstr "جواب"
+
+#: comments.php:x
+msgid "Comments Off"
+msgstr "تعليقات خارج"
+
+#: comments.php:x
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الاعتدال."
+
+#: comments.php:x
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: functions.php:x
+msgid "Primary Menu"
+msgstr "القائمة أولية"
+
+#: functions.php:x
+msgid "Top Menu"
+msgstr "القائمة علوية"
+
+#: functions.php:x
+msgid "Footer Menu"
+msgstr "القائمة تذییل"
+
+#: functions.php:x
+msgid "Beach"
+msgstr "شاطئ"
+
+#: functions.php:x
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: functions.php:x
+msgid "Sidebar Widgets Area"
+msgstr "العمود الجانبي الحاجيات المنطقة"
+
+#: functions.php:x
+msgid "Up Main Widgets Area"
+msgstr "فوق العمود الرئيسي الحاجيات المنطقة"
+
+#: functions.php:x
+msgid "Under Main Widgets Area"
+msgstr "تحت العمود الرئيسي الحاجيات المنطقة"
+
+#: functions.php:x
+msgid "Under Content (up footer) Widgets Area"
+msgstr "تحت المحتوى (فوق تذييل الصفحة) الحاجيات المنطقة"
+
+#: functions.php:x
+msgid "Footer Widgets Area"
+msgstr "‌تذييل الصفحة الحاجيات المنطقة"
+
+#: functions.php:x
+msgid "<span class=\"previous\">&larr;</span> Older posts"
+msgstr "<span class=\"previous\">&rarr;</span> أقدم المشاركات"
+
+#: functions.php:x
+msgid "Newer posts <span class=\"next\">&rarr;</span>"
+msgstr "أحدث المشاركات <span class=\"next\">&larr;</span>"
+
+#: functions.php:x
+msgid "« Previous"
+msgstr "« سابق"
+
+#: functions.php:x
+msgid "Next »"
+msgstr "التالي »"
+
+#: functions.php:x
+msgid ", "
+msgstr "، "
+
+#: functions.php:x
+msgid "View all posts by %s"
+msgstr "عرض عن المشاركات التي كتبها %s"
+
+#: functions.php:x
+msgid ""
+"Posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"نشر على %1$s وسم %2$s  علی %3$s بواسطة <span class=\"by-author\">%4$s</span>."
+
+#: functions.php:x
+msgid "Posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "نشر على %1$s علی %3$s بواسطة <span class=\"by-author\"> %4$s</span>."
+
+#: functions.php:x
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "نشر على %3$s<span class=\"by-author\"> بواسطة %4$s</span>."
+
+#: functions.php:x
+msgid "Unknow"
+msgstr "مجهول"
+
+#: functions.php:x
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">نشرت </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> علی <a href=\"%3$s\" title=\"الرابط إلى الصورة بالحجم الكامل\">%4$s "
+"&times; %5$s</a> در <a href=\"%6$s\" title=\"العودة إلى %7$s\" rel=\"gallery"
+"\">%8$s</a>."
+
+#: functions.php:x
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف سنوي: %s"
+
+#: functions.php:x
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف شهريا: %s"
+
+#: functions.php:x
+msgid "Daily Archives: %s"
+msgstr "الأرشيف يوميا: %s"
+
+#: functions.php:x
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: theme-options.php:x
+msgid "View"
+msgstr "منظر"
+
+#: theme-options.php:x
+msgid "Display cover in home page"
+msgstr "شاشة الغطاء في الصفحة الرئيسية"
+
+#: theme-options.php:x
+msgid "Display cover in other pages"
+msgstr "شاشة الغطاء في الصفحات الأخرى"
+
+#: theme-options.php:x
+msgid "Display content and footer in home page"
+msgstr "عرض محتوى وتذييل الصفحة في الصفحة الرئيسية"
+
+#: theme-options.php:x
+msgid "Display sidebar column"
+msgstr "عرض العمود الجانبي"
+
+#: theme-options.php:x
+msgid "Full size main column when dont display sidebar column"
+msgstr "كامل العمود الرئيسي حجم عندما لا يتم عرض العمود الجانبي"
+
+#: theme-options.php:x
+msgid "Display intro in home page"
+msgstr "نعرض المقالات في الصفحة الرئيسية"
+
+#: theme-options.php:x
+msgid "Display intro in other pages"
+msgstr "عرض مقدمة في الصفحات الأخرى"
+
+#: theme-options.php:x
+msgid "Display intro in mobile view"
+msgstr "عرض مقدمة في العرض الهاتفي"
+
+#: theme-options.php:x
+msgid "Logo image url to display adjacent top menu"
+msgstr "شعار صورة موقع لعرض القائمة العلوية المجاورة"
+
+#: theme-options.php:x
+msgid "Dark background for Footer area"
+msgstr "خلفية معتمة لمنطقة تذييل"
+
+#: theme-options.php:x
+msgid "Content"
+msgstr "محتوى"
+
+#: theme-options.php:x
+msgid "Intro content"
+msgstr "محتوى المقدمة"
+
+#: theme-options.php:x
+msgid "Copyright content"
+msgstr "محتوى حق النشر"
+
+#: theme-options.php:x
+msgid "Header tags"
+msgstr "هدر وسوات"
+
+#: theme-options.php:x
+msgid "Author link"
+msgstr "رابط الكاتب"
+
+#: theme-options.php:x
+msgid "Shortlink"
+msgstr "رابط قصير"
+
+#: theme-options.php:x
+msgid "Favicon link"
+msgstr "رابط فافيكون"
+
+#: theme-options.php:x
+msgid "Social icons"
+msgstr "الرموز الاجتماعية"
+
+#: theme-options.php:x
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: theme-options.php:x
+msgid "For more information:"
+msgstr "لمزيد من المعلومات:"
+
+#: theme-options.php:x
+msgid "Dinky theme options"
+msgstr "خيارات القالب دینکی"
+
+#: theme-options.php:x
+msgid "Click here"
+msgstr "انقر هنا"
+
+#: theme-options.php:x
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: theme-options.php:x
+msgid ""
+"Suitable for personal blogs that you can have blog and also have visit card "
+"in home page<br/>Several social icons to display your account links<br/"
+">Support RTL languages and ability to add different languages typography"
+msgstr ""
+"مناسبة لبلوق الشخصية التي يمكن أن يكون لها بلوق وأيضا لديها بطاقة زيارة في "
+"الصفحة الرئيسية<br/>العديد من الرموز الاجتماعية لعرض روابط حسابك<br/>دعم "
+"لغات الاتجاه الصحيح، والقدرة على إضافة لغات مختلفة الطباعة"
+
+#: theme-options.php:x
+msgid "%s Theme Options"
+msgstr "خيارات القالب %s"
+
+#: widgets.php:x
+msgid "Search..."
+msgstr "بحث..."
+
+#: widgets.php:x
+msgid "Text without default widgets style"
+msgstr "نص بدون الاستايل الافتراضي الحاجيات"
+
+#: style.css:x
+msgid "Dinky"
+msgstr "دینکی (أنيق)"
+
+#: style.css:x
+msgid ""
+"Suitable for personal blogs that you can have blog and also visit card in "
+"home page. Several social icons to display your account links. Support RTL "
+"languages and ability to add different languages typography (English, "
+"Persian and Arabic by defualt). This theme is responsive; means that action "
+"with screen size so it displayed good in tablet and mobile yet. Technologies "
+"used: HTML5, CSS3, JavaScript, jQuery. The proposed plugins compatible with "
+"this theme: wp-jalali, wp-pagenavi. <a href=\"http://wordpress.org/support/"
+"topic/dinky-theme-version-16/\">Changes List</a> | <a href=\"http://github."
+"com/misamplus/dinky-theme/wiki/\" title=\"Read to better use of theme\">More "
+"Info</a> | <a href=\"http://wordpress.org/support/view/theme-reviews/dinky/"
+"\">Rate Theme</a> | <a href=\"http://wordpress.org/support/theme/dinky/"
+"\">Ask Questions</a> | <a href=\"http://github.com/misamplus/dinky-theme/"
+"\">Develop Theme</a>"
+msgstr ""
+"مناسبة لبلوق الشخصية التي يمكن أن يكون لها بلوق وأيضا بطاقة زيارة في الصفحة "
+"الرئيسية. العديد من الرموز الاجتماعية لعرض روابط حسابك. دعم لغات الاتجاه "
+"الصحيح، والقدرة على إضافة لغات مختلفة الطباعة (الإنجليزية، الفارسية و "
+"العربية من قبل). هذا القالب هو استجابة؛ يعني أن العمل مع حجم الشاشة بحيث أنه "
+"عرض جيد في قرص والمتنقلة حتى الآن. التقنيات المستخدمة: HTML5, CSS3, "
+"JavaScript, jQuery . والإضافات المقترحة متوافقة مع هذا القالب: wp-jalali, wp-"
+"pagenavi. <a href=\"http://wordpress.org/support/topic/dinky-theme-"
+"version-16/\">قائمة التغييرات</a> | <a href=\"http://github.com/misamplus/"
+"dinky-theme/wiki/\" title=\"قراءة لاستخدام أفضل لقالب\">المزيد من المعلومات</"
+"a> | <a href=\"http://wordpress.org/support/view/theme-reviews/dinky/\">معدل "
+"القالب</a> | <a href=\"http://wordpress.org/support/theme/dinky/\">طرح "
+"الأسئلة</a> | <a href=\"http://github.com/misamplus/dinky-theme/\">تطوير "
+"القالب</a>"
+
+#: style.css:x
+msgid "Misam Saki"
+msgstr "میثم ساکی"
+
+#: style.css:x
+msgid "http://misam.ir/"
+msgstr "http://misam.ir/"

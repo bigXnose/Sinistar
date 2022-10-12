@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Inconsolata&display=swap');
+
+*
+{
+background-color: pink;
+margin: 0;
+padding: 0;
+}
+
+ul li 
+{
+	display: inline-block;
+	position: relative;
+	left:75%;
+	color: black;	
+	padding-left: 10px;
+	text-decoration: none;
+	padding-top: 1%;
+}
+
+ul li a 
+{
+	background-color:black;
+	text-decoration: none;	
+	color: white;
+	font-size: 24px;
+	padding-left:5px;
+	padding-right: 5px;
+	font-family: Inconsolata;
+	
+}
+
+h1
+{
+	text-align: center;
+}
+
+ul li a:hover
+{
+	color: pink;
+	background-color: white;
+}
+
+p.order
+{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top:10px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+
+}
+form 
+{
+    padding-left:15px;
+
+}
+
+input[type=text],input[type=text-areas],input[type=submit],input[type=reset], select
+{
+    background-color:white;
+}
+
+.Message 
+{
+	width: 500px;
+	height: 30px;
+    background-color:white;
+}
+
+.contact 
+{
+    margin-top:40px;
+}
+
+h2
+{
+    margin-top:40px;
+    margin-left:5px;
+}
+
+h5 
+{
+    padding-top:20px;
+    font-size:34px;
+    text-align:center;
+    text-decoration:underline;
+}
+
+p.index
+{
+    margin-top: 30px;
+    margin-left:10px;
+    font-size:22px;
+}
+
+.pizza-slice 
+{  
+    margin-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+
+.phone
+{
+    margin-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+.rat 
+{
+    margin-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+
+p.rtt 
+{
+text-align: Center;
+margin-top:20px;
+}

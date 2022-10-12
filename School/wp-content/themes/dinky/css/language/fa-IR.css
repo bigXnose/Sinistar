@@ -1,0 +1,139 @@
+/**
+ * Style for Farsi-Iran (body.fa-IR) language typography
+ *
+ * Package: Dinky
+ * Since: Dinky 1.2 (in css/language.css at Dinky 1.0)
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+@font-face {
+	font-family: 'B Yekan';
+	src: url(../../font/BYekan-Regular.eot);
+	src: url(../../font/BYekan-Regular.eot?#iefix) format('embedded-opentype'), url(../../font/BYekan-Regular.woff) format('woff'), url(../../font/BYekan-Regular.ttf) format('truetype'), url(../../font/BYekan-Regular.svg#laleh) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'B Mitra';
+	src: url(../../font/BMitra-Regular.eot);
+	src: url(../../font/BMitra-Regular.eot?#iefix) format('embedded-opentype'), url(../../font/BMitra-Regular.woff) format('woff'), url(../../font/BMitra-Regular.ttf) format('truetype'), url(../../font/BMitra-Regular.svg#laleh) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Entezar';
+	src: url(../../font/Entezar-Regular.eot);
+	src: url(../../font/Entezar-Regular.eot?#iefix) format('embedded-opentype'), url(../../font/Entezar-Regular.woff) format('woff'), url(../../font/Entezar-Regular.ttf) format('truetype'), url(../../font/Entezar-Regular.svg#laleh) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*[lang=fa-IR] {
+	font-family: "B Mitra", Tahoma, Arial;
+}
+body[lang=fa-IR] label {
+	font-size: 12pt;
+}
+body[lang=fa-IR] input {
+	font-family: Tahoma;
+}
+body[lang=fa-IR] #main-navigation,
+body[lang=fa-IR] #mobile-navigation {
+	font-family: "B Yekan";
+	font-size: 12pt;
+}
+body[lang=fa-IR] .mobile-title {
+	font-size: 14pt;
+}
+body[lang=fa-IR] #title .title {
+	font-family: "Entezar";
+	font-size: 60pt;
+	font-weight: 400;
+}
+body[lang=fa-IR] #title .title:after {
+	font-family: "B Yekan";
+	font-size: 10pt;
+}
+body[lang=fa-IR] #title .subtitle {
+	font-family: "Entezar";
+	font-size: 20pt;
+	font-weight: 400;
+}
+body[lang=fa-IR] #intro {
+	padding: 35px 10px 30px;
+	min-height: 85px;
+	font-size: 16pt;
+}
+body[lang=fa-IR] #main .archive-title {
+	font-family: "B Yekan";
+	font-size: 16pt;
+}
+body[lang=fa-IR] #main .navigation {
+	font-size: 12pt;
+}
+body[lang=fa-IR] .post .entry-title {
+	font-size: 18pt;
+	line-height: 1.618em;
+}
+body[lang=fa-IR] .post .entry-header .entry-shortmeta {
+	font-size: 12pt;
+}
+body[lang=fa-IR] .comment-body,
+body[lang=fa-IR] .post .entry-summary,
+body[lang=fa-IR] .post .entry-content {
+	font-size: 13pt;
+}
+body[lang=fa-IR] .post .entry-meta {
+	font-size: 12pt;
+}
+body[lang=fa-IR] .widget .entry-title {
+	font-size: 16pt;
+}
+body[lang=fa-IR] .widget .entry-content {
+	font-size: 12pt;
+}
+body[lang=fa-IR] #footer .copyright {
+	font-size: 11pt;
+}
+body[lang=fa-IR] #footer .copyright-designer {
+	font-family: "B Mitra", Tahoma, Arial;
+	font-size: 10pt;
+}
+
+/**
+ * For wordpress.css
+ */
+
+body[lang=fa-IR] #pings-title,
+body[lang=fa-IR] #comments-title {
+	font-size: 11pt;
+}
+body[lang=fa-IR] .commentlist li cite {
+	font-size: 1.1em;
+}
+body[lang=fa-IR] .comment-body .comment-meta a {
+	font-size: 11pt;
+}
+
+/**
+ * For post-formats.css
+ */
+
+body[lang=fa-IR] .gallery-caption {
+	font-size: 12pt;
+}
+
+/**
+ * For match other languages with this language
+ */
+
+body[lang=fa-IR] *[lang=en-US] {
+	font-size: 11pt;
+}
+body[lang=fa-IR] *[lang=ar] {
+	font-size: 11pt;
+}

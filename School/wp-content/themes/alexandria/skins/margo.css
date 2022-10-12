@@ -1,0 +1,363 @@
+.site-header {
+    background:url(images/margo/logo_section.png);
+}
+.tinynav { background:#433719; color:#fff; border:1px solid #362c13; }
+
+.main-navigation li:hover {
+	background:#433719;
+}
+.main-navigation a {
+	color:#fff;
+}
+.main-navigation ul ul {
+	background:#433719;
+}
+.main-navigation ul ul a {
+	color:#fff;
+}
+.main-navigation ul ul li:hover {
+	background:#362c13;
+}
+.main-navigation li.current_page_item,
+.main-navigation li.current-menu-item {
+	background:#433719;	
+}
+.nav-border-top{
+	border-top:1px solid #362c13;
+}
+.site-slider{
+	background:url(images/margo/header.png);
+}
+.site-slider-slider-one-text-heading{
+	color:#fff;
+	text-shadow:none;
+}
+.site-slider-slider-one-text-description{
+	color:#fff;
+}
+.biz0ne-products-services-img {
+    background: none repeat scroll 0 0 #d1c8ac;
+}
+.biz0ne-quote, .biztwo-quote {
+    background:#d1c8ac;
+	border:none;
+}
+.biz0ne-quote-text {
+    background: url(images/margo/quote.png) no-repeat;
+}
+.biz0ne-quote-name span {
+    background:#c5bb9e;
+}
+.biztwo-portfolio {
+    background:#d1c8ac;
+}
+.widget-area {
+    background:#d1c8ac;
+}
+.widget ul li{
+	border-bottom:1px solid #c5bb9e;
+}
+.search-field{
+	background:#c5bb9e !important;
+}
+.widget select{
+	background:#c5bb9e;
+}
+
+
+/* =Content
+----------------------------------------------- */
+.more-link{
+	background:#d1c8ac;
+}
+.page-links a{
+	background:#d1c8ac;
+}
+.post .entry-title{
+	border-bottom:1px solid #d1c8ac;
+}
+.entry-meta{
+	border-bottom:1px solid #d1c8ac;	
+}
+.entry-meta-bottom{
+	border-top:1px solid #d1c8ac;
+}
+.entry-meta-bottom-item{
+	border-bottom:1px solid #d1c8ac;
+}
+.entry-meta-bottom-item a{
+	background:#d1c8ac;
+}
+pre{
+	background:#d1c8ac;
+}
+blockquote{
+	border-left: 1em solid #d1c8ac;
+}
+
+/* =Media
+----------------------------------------------- */
+.wp-caption {
+	border: 1px solid #d1c8ac;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+.post-navigation{
+	background:#d1c8ac;
+}
+.post-navigation .nav-previous{
+	background:url(images/single_np_prev.png) no-repeat left;
+}
+.post-navigation .nav-next{
+	background:url(images/single_np_next.png) no-repeat right;		
+}
+.paging-navigation .nav-previous{
+	background:#d1c8ac url(images/single_np_prev.png) no-repeat left center;
+}
+.paging-navigation .nav-next{
+	background:#d1c8ac url(images/single_np_next.png) no-repeat right center;
+}
+
+/* =Comments
+----------------------------------------------- */
+.comments-area{
+	background:#d1c8ac;
+}
+.comment-navigation .nav-previous a{
+	background:#c5bb9e;
+}
+.comment-navigation .nav-next a{
+	background:#c5bb9e;
+}
+.comment-author cite{
+	background:url(images/ten.png);
+}
+.comment-body .reply a{
+	background:#000;
+	color:#fff;
+}
+
+.footer-social {
+    background:#766334;
+}
+.site-footer {
+    background:url(images/margo/footer.png);
+}
+.site-info h3 a{
+	color:#fff;
+}
+.site-info p {
+    color:#fff;
+}
+.site-info p a {
+    color:#fff;
+}
+/* Footer Widgets */
+.site-footer .widget {
+	color:#fff;
+}
+.site-footer .widget a{
+	color:#fff;
+}
+.site-footer .widget h1 {
+	color:#fff;
+}
+.site-footer .widget ul li{
+	border-bottom:1px solid #66552c;
+}
+.site-footer .widget ul li a{
+	color:#fff;
+}
+.site-footer .search-field{
+	background:#66552c !important;
+	color:#fff;
+}
+.site-footer .search-submit{
+	background:#000 !important;
+	color:#fff !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #66552c;
+}
+.wpcf7-text{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;
+}
+.wpcf7-textarea{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;
+}
+.wpcf7-select{
+	background:#d4cbb0 !important;
+	border:none;
+}
+.wpcf7-quiz{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;
+}
+.wpcf7-date{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;	
+}
+.wpcf7-number{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;	
+}
+.wpcf7-captchar{
+	background:#d4cbb0 !important;
+	border:3px solid #c7bea4 !important;	
+}
+.wpcf7-submit{
+	background:#000 !important;
+	color:#fff !important;
+	padding:1.0em 3em !important;
+	box-shadow:none !important;
+	text-shadow:none !important;
+}
+
+.bizfour-products-services-item{
+	background:#d1c8ac;
+}
+.bizfour-products-services-img{
+	background:#d1c8ac;	
+}
+.bizfour-quote{
+	border:1px solid #d1c8ac;;
+}
+.bizfour-quote-text{
+	background:url(images/margo/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#d1c8ac;
+}
+
+.eone-latest-products{
+	background:#d7ccac;
+}
+.eone-product{
+	background:#cfc29d;
+}
+.eone-product-image{
+	background:#d8ceab;
+}
+.eone-product-price{
+	background:#c9ba8f;
+}
+.eone-product-buy{
+	background:#c2b284;
+}
+.eone-product-buy span a{
+	background:#434343;
+	color:#fff;	
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	background:#434343;
+}
+.woocommerce-tabs{
+	background:#e4e6e9;
+}
+.woocommerce-tabs .wc-tabs{
+	background:none;
+}
+.woocommerce div.product .woocommerce-tabs .panel{
+	background:#d8ceab;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+	background:#d8ceab;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active{
+	background:#d8ceab;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	background-color:#434343;
+	color:#fff;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover{
+	background-color:#565656;
+	color:#fff;	
+}
+.woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit[disabled]:disabled:hover, .woocommerce a.button.disabled:hover, .woocommerce a.button:disabled:hover, .woocommerce a.button[disabled]:disabled:hover, .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button[disabled]:disabled:hover, .woocommerce input.button.disabled:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button[disabled]:disabled:hover {
+	background-color:#565656;
+	color:#fff;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+	background-color:#565656;
+	color:#fff;	
+}
+
+
+.woocommerce .related{
+	background:#e4e6e9;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+	background:#d8ceab;
+}
+.woocommerce ul.products li.product h3{
+	background:#d1c69d;
+}
+.woocommerce nav.woocommerce-pagination ul{
+	background:#d8ceab;	
+}
+.woocommerce nav.woocommerce-pagination ul li{
+	 border-right: 1px solid #d1c69d;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current{
+	background:#d1c69d;
+}
+.woocommerce .woocommerce-ordering select{
+	background:#e4e6e9;
+}
+
+.woocommerce table.shop_table{
+	background:#d1c69d;
+}
+.woocommerce table.shop_table thead, .cart-subtotal, .order-total{
+	background:#d1c69d;
+}
+.woocommerce table.shop_table tbody tr{
+	background:#d8ceab;
+}
+
+.woocommerce table.shop_table td{
+	border-bottom:1px solid #d8ceab;;
+}
+.woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions{
+	background: #d1c69d;
+}
+
+.woocommerce .woocommerce-message::before, .woocommerce .woocommerce-info::before{
+	color:#d1c69d;
+}
+.woocommerce .woocommerce-message, .woocommerce .woocommerce-info{
+	border-top-color: #d1c69d;
+}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message{
+	background:#d1c69d;
+}
+
+.woocommerce ul.products li.product .price{
+	color:#000;
+}
+
+.woocommerce .col2-set, .woocommerce-page .col2-set{
+	background:#d1c69d;
+}
+.woocommerce-checkout #payment{
+	background:#d1c69d;
+}
+.woocommerce-checkout #payment div.payment_box{
+	background:#d1c69d;
+}
+.woocommerce-checkout .input-text, .woocommerce-checkout .select2-container{
+	background:#d8ceab;
+	border-color:#d1c69d;
+}
+
+.woocommerce .order_details{
+	background:#d1c69d;
+}

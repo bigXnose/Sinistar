@@ -1,0 +1,45 @@
+/**
+ * Theme options style
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+#dinky-options form {
+	display: inline-table;
+	width: 700px;
+}
+#dinky-options #dinky-ads {
+	display: inline-table;
+	width: 300px;
+	text-align: center;
+}
+tr:hover {
+	background: #E6E6E6;
+}
+tr th {
+	width: 300px !important;
+}
+input#topmenu-logo {
+	width: 300px;
+}
+textarea#intro_content {
+	width: 300px;
+	height: 100px;
+}
+input#copyright {
+	width: 300px;
+}
+input[id*="tag-"] {
+	direction: ltr;
+	width: 300px;
+}
+input[id*="social-"] {
+	direction: ltr;
+	width: 300px;
+}

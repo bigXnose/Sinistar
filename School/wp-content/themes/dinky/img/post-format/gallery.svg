@@ -1,0 +1,7 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="256" height="256" id="svg7490" version="1.1" inkscape:version="0.48.3.1 r9886" viewBox="0 -410 2048 2048">
+  <g transform="matrix(1 0 0 -1 0 1638)">
+   <path fill="#CE1919" d="M0 1024l506 506q101 103 234.5 160.5t283.5 57.5t283.5 -57.5t233.5 -159.5l507 -507l-506 -507q-101 -103 -234.5 -160t-283.5 -57t-283.5 57.5t-233.5 160.5zM272 1024l370 -371q77 -78 175.5 -119.5t206.5 -41.5t206 41.5t174 118.5l373 372l-371 371
+q-158 161 -382 161q-108 0 -206.5 -41t-173.5 -119zM640 1024q0 159 112.5 271.5t271.5 112.5t271.5 -112.5t112.5 -271.5t-112.5 -271.5t-271.5 -112.5t-271.5 112.5t-112.5 271.5zM1024 1152q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5
+t-90.5 -37.5t-37.5 -90.5z" />
+  </g>
+</svg>

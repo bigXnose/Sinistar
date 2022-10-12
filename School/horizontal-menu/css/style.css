@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Inconsolata&display=swap');
+
+*
+{
+background-color: pink;
+margin: 0;
+padding: 0;
+}
+
+ul li 
+{
+	display: inline-block;
+	position: relative;
+	left:75%;
+	color: black;	
+	padding-left: 10px;
+	text-decoration: none;
+	padding-top: 1%;
+}
+
+ul li a 
+{
+	background-color:black;
+	text-decoration: none;	
+	color: white;
+	font-size: 24px;
+	padding-left:5px;
+	padding-right: 5px;
+	font-family: Inconsolata;
+	
+}
+
+h1
+{
+	text-align: center;
+}
+
+ul li a:hover
+{
+	color: pink;
+	background color: white;
+}
+

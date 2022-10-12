@@ -1,0 +1,242 @@
+.mceContentBody {
+	color: #666;
+	font-family: Baskerville, "Playfair Display", "Times New Roman", serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	width: 700px;
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-family: Baskerville, "Playfair Display", "Times New Roman", serif;
+	font-style: italic;
+	font-weight: normal;
+	margin: 1em 0;
+}
+h1 {
+	font-size: 32px;
+	line-height: 1em;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: .35px; /* Hack to fix thin text in Windows */
+	font-size: 16px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+h6 {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	-webkit-text-stroke: .35px; /* Hack to fix thin text in Windows */
+	font-size: 12px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+/* Text elements */
+::selection {
+	background-color: #444;
+	color: #fff;
+}
+p {
+	margin-bottom: 1.5em;
+}
+ul, ol {
+	margin: 0 0 1.5em 2em;
+}
+ul {
+	list-style: none;
+}
+ul li:before {
+	content: "\02022";
+	font-size: 14px;
+	margin: 0 0 0 -1.5em;
+	padding: 0 1em 0 0;
+}
+ul ul li:before {
+	content: "\00B0";
+}
+ul ul ul li:before {
+	content: "\25C7";
+	font-size: 10px;
+	font-size: 1rem;
+}
+ol {
+	list-style: decimal;
+}
+ol ol {
+	list-style: lower-alpha;
+}
+ol ol ol {
+	list-style: lower-roman;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0 1.5em 1.5em;
+}
+b, strong {
+	font-weight: bold;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+cite {
+	font-size: 12px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+blockquote {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-family: Baskerville, "Playfair Display", "Times New Roman", serif;
+	font-size: 24px;
+	font-style: italic;
+	margin: 1.5em 0;
+	padding: 1em 1.5em;
+}
+blockquote p {
+	margin: 0;
+}
+blockquote cite {
+	clear: both;
+	float: right;
+	font-size: 12px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+address {
+	font-style: italic;
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #fafafa;
+	border: 1px dashed #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	padding: 1.6em;
+	overflow: auto;
+	max-width: 100%;
+}
+code, kbd, tt, var {
+	background: #fafafa;
+	border: 1px dashed #eee;
+	font: 14px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark, ins {
+	background: #aee6f8;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+small {
+	font-size: 75%;
+}
+big {
+	font-size: 125%;
+}
+figure {
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	font-size: 90%;
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+td {
+	border-bottom: 1px solid #eee;
+	font-weight: normal;
+	padding: 5px 10px;
+	text-align: left;
+}
+th {
+	border-bottom: 1px solid #eee;
+	font-size: 16px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+tr:hover {
+	background: rgba(0,0,0,.01);
+}
+/* Links */
+a {
+	color: #333;
+	text-decoration: none;
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+a:visited {
+	color: #333;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #999;
+	text-decoration: none;
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-top: 1.5em;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 1.5em auto;
+}

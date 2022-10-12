@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+    src: url('skins/fonts/titillium/TitilliumText22L003-webfont.eot');
+    src: url('skins/fonts/titillium/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/fonts/titillium/TitilliumText22L003-webfont.woff') format('woff'),
+         url('skins/fonts/titillium/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('skins/fonts/titillium/TitilliumText22L003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LMedium';
+    src: url('skins/fonts/titillium/TitilliumText22L004-webfont.eot');
+    src: url('skins/fonts/titillium/TitilliumText22L004-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/fonts/titillium/TitilliumText22L004-webfont.woff') format('woff'),
+         url('skins/fonts/titillium/TitilliumText22L004-webfont.ttf') format('truetype'),
+         url('skins/fonts/titillium/TitilliumText22L004-webfont.svg#TitilliumText22LMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NobileRegular';
+    src: url('skins/fonts/nobile/nobile-webfont.eot');
+    src: url('skins/fonts/nobile/nobile-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/fonts/nobile/nobile-webfont.woff') format('woff'),
+         url('skins/fonts/nobile/nobile-webfont.ttf') format('truetype'),
+         url('skins/fonts/nobile/nobile-webfont.svg#NobileRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background:url(skins/images/alexandria/page_bg.png);	
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: #000;
+	font-family: 'NobileRegular', sans-serif;
+	word-wrap:break-word;	
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-family: 'TitilliumText22LRegular', sans-serif;
+	line-height: 1.25;
+}

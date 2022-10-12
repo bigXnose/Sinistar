@@ -1,0 +1,143 @@
+/**
+ * Style for use template in wordpress
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+.author-info {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #E6E6E6;
+	border-radius: 3px;
+}
+.author-info .author-avatar {
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+}
+.author-info .author-detail {
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 1.35em;
+}
+#pings-title,
+#comments-title {
+	margin: 20px 0 0;
+	text-align: center;
+}
+.comments-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.comments-list ol {
+	list-style: decimal;
+}
+.comments-list li {
+	background-color: #FFF;
+	margin: 5px 0;
+}
+.comments-list .bypostauthor {
+}
+.comments-list li cite {
+	color: #111;
+}
+.comments-list li.alt {
+	background: #E6E6E6;
+}
+.comments-list .children {
+	list-style: none;
+	margin-left: 10px;
+	padding: 10px;
+}
+.comments-list .avatar {
+	border-radius: 2px;
+	float: left;
+	margin: 0 10px 5px 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.comment-author .fn {
+}
+.comment-author .says {
+	color: #999;
+}
+.comment-body .comment-meta {
+	display: inline-block;
+	margin: 0 0 15px;
+	padding: 0;
+	text-align: left;
+	color: #999;
+}
+.comment-body {
+	clear: both;
+	padding: 10px;
+}
+.comment-body p {
+	clear: both;
+}
+.comment-body .reply {
+}
+.pingback, .trackback {
+	list-style: none;
+	margin: 20px 0;
+}
+#commentform {
+	margin: 0;
+}
+#respond {
+	background: #F8F8F8;
+	border: 3px solid #E6E6E6;
+	clear: both;
+	margin: 15px 0 0 0;
+	padding: 10px 20px 20px;
+}
+#respond input,
+#respond textarea {
+	display: block;
+}
+.reply {
+	margin: 10px 0;
+}
+.comment-reply-link {
+	padding: 2px 5px;
+	background: #777;
+	color: #FFF !important;
+}
+.comment-reply-link:hover {
+	background: #C0C0C0;
+	border: none;
+}
+#commentform {
+	margin-top: 10px;
+}
+#commentform p {
+	margin: 10px 0;
+}
+#commentform #comment {
+	width: 100%;
+}
+#cancel-comment-reply-link {
+	color: #C45252;
+}
+p.form-allowed-tags,
+p.form-allowed-tags code {
+	font-size: 10pt !important;
+}
+
+/**
+ * For WordPress widgets and plugins
+ */
+
+.mps_calendar_widget .entry-content {
+	text-align: center;
+}
+.wp-pagenavi .pages {
+	display: inline-block;
+}

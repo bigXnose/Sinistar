@@ -1,0 +1,36 @@
+/**
+ * Style for use in TinyMCE editor
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+@import "./css/typography.css?ver=2013-09-27";
+
+body {
+	font-family: "OpenSans", sans-serif;
+}
+ul {
+	margin: 0 20px;
+	list-style-type: disc;
+}
+ul ul {
+	list-style-type: circle;
+}
+ul ul ul {
+	list-style-type: square;
+}
+a {
+	color: #0085BD;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	border-bottom: 1px dotted;
+	color: #444;
+}

@@ -1,0 +1,20 @@
+/**
+ * Theme Name: Dinky
+ * Version: 1.6
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Description: Suitable for personal blogs that you can have blog and also visit card in home page. Several social icons to display your account links. Support RTL languages and ability to add different languages typography (English, Persian and Arabic by defualt). This theme is responsive; means that action with screen size so it displayed good in tablet and mobile yet. Technologies used: HTML5, CSS3, JavaScript, jQuery. The proposed plugins compatible with this theme: wp-jalali, wp-pagenavi. <a href="http://wordpress.org/support/topic/dinky-theme-version-16/">Changes List</a> | <a href="http://github.com/misamplus/dinky-theme/wiki/" title="Read to better use of theme">More Info</a> | <a href="http://wordpress.org/support/view/theme-reviews/dinky/">Rate Theme</a> | <a href="http://wordpress.org/support/theme/dinky/">Ask Questions</a> | <a href="http://github.com/misamplus/dinky-theme/">Develop Theme</a>
+ * Author: Misam Saki
+ * Author URI: http://misam.ir/
+ * License: GNU General Public License v3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Tags: light, white, custom-colors, two-columns, rtl-language-support, flexible-width, flexible-header, custom-header, featured-image-header, featured-images, theme-options, editor-style, post-formats, sticky-post, threaded-comments, translation-ready
+ * Text Domain: dinky
+ * Copyright (C) 2013  Misam Saki, misam.ir
+*/
+
+@import "./css/style.css?ver=2013-09-27";
+@import "./css/post-formats.css?ver=2013-09-27";
+@import "./css/typography.css?ver=2013-09-27";
+@import "./css/social-icons.css?ver=2013-09-27";
+@import "./css/wordpress.css?ver=2013-09-27";
+@import "./css/language/default.css?ver=2013-09-27";

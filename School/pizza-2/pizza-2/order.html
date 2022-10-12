@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="css/style.css"  rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order</title>
+</head>
+	<body>
+	<h1>Order</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="order.html">Order</a></li>
+		</ul>
+	<img src="img/pizza-slice.jpg" alt="Pizza Slice" class="pizza-slice">
+		<h2>Pizza Order</h2>
+	<form action="https://www.stonecoldprofessor.com/pizza-order.php" method="post" target="_blank">
+		<p class="order">Size</p>
+		<input type="radio" id="rat" name="size" value="Rat">
+		<label for="rat">Rat Size</label>
+		  <br>
+		<input type="radio" id="tiny" name="size" value="Tiny">
+		<label for="tiny">Tiny</label>
+		  <br>
+		  <input type="radio" id="x-small" name="size" value="Extra-Small">
+		<label for="x-small">Extra Small</label>
+		  <br>
+		  <input type="radio" id="baby" name="size" value="Baby">
+		<label for="baby">Baby</label>
+		  <br>
+		<input type="radio" id="small" name="size" value="Small">
+		<label for="Small">Small</label>
+		  <br>
+		<input type="radio" id="medium" name="size" value="Medium">
+		<label for="Medium">Medium</label>
+		  <br>
+		<input type="radio" id="large" name="size" value="Large">
+		<label for="Large">Large</label>
+		  <br>
+		<input type="radio" id="extra-large" name="size" value="Extra-Large">
+		<label for="Extra-Large">Extra Large</label>
+		<br>
+		  <input type="radio" id="village" name="size" value="Village">
+		<label for="village">Feed a Small Village</label>
+	<br>
+	<p class="order">Toppings</p>
+		<input type="checkbox" id="pepperoni" name="toppings[]" value="Pepperoni">
+		<label for="Pepperoni">Pepperoni</label>
+	<br>
+		<input type="checkbox" id="olives" name="toppings[]" value="Olive">
+		<label for="Olive">Olive</label>
+	<br>
+		<input type="checkbox" id="ham" name="toppings[]" value="Ham">
+		<label for="Ham">Ham</label>
+	<br>
+		<input type="checkbox" id="canadian-bacon" name="toppings[]" value="Canadian-Bacon">
+		<label for="Canadian-Bacon">Canadian Bacon</label>
+	<br>
+		<input type="checkbox" id="sausage" name="toppings[]" value="Sausage">
+		<label for="Sausage">Sausage</label>
+	<br>
+		<input type="checkbox" id="green-pepper" name="toppings[]" value="Green-Pepper">
+		<label for="green-pepper">Green Pepper</label>
+	<br>
+		<input type="checkbox" id="pineapple" name="toppings[]" value="Pineapple">
+		<label for="pineapple">Pineapple</label>
+	<br>
+		<input type="checkbox" id="buffalo-chicken" name="toppings[]" value="Buffalo-Chicken">
+		<label for="buffalo-chicken">Buffalo Chicken</label>
+	<br>
+	<input type="checkbox" id="taco-meat" name="toppings[]" value="Taco-Meat">
+		<label for="taco-meat">Taco Meat</label>
+	<br>
+	<input type="checkbox" id="pineapple" name="toppings[]" value="Pineapple">
+		<label for="pineapple">Pineapple</label>
+	<br>
+	<input type="checkbox" id="apple" name="toppings[]" value="Apple">
+		<label for="apple">Apple</label>
+	<br>
+	<input type="checkbox" id="garlic" name="toppings[]" value="Garlic">
+		<label for="garlic">Garlic</label>
+	<br>
+	<input type="checkbox" id="spinach" name="toppings[]" value="Spinach">
+		<label for="spinach">Spinach</label>
+	<br>
+	<input type="checkbox" id="popcorn" name="toppings[]" value="Porcorn">
+		<label for="porcorn">Popcorn</label>
+	<br>
+	<input type="checkbox" id="celery" name="toppings[]" value="Celery">
+		<label for="celery">Celery</label>
+	<br>
+	<input type="checkbox" id="fish" name="toppings[]" value="Fish">
+		<label for="fish">Fish</label>
+	<br>
+	<p class="order">Crust</p>
+		<select name="crust" id="crust">
+			<option value="thin">Thin</option>
+			<option value="thick">Thick</option>
+			<option value="stuffed">Stuffed</option>
+			<option value="gluten-free">Gluten-Free</option>
+			<option value="doughy">Doughy</option>
+			<option value="bacon">Bacon Filled Crust</option>
+			<option value="none">No Crust</option>
+			<option value="only">Only crust</option>
+			<option value="bread">Bread</option>
+		</select>
+	<br>
+	<p class="order">Delivery Address</p>
+		<label for="add1">Address 1:</label>
+		<input type="text" id="add1" name="add1" placeholder="1234 Street" value="" required>
+		<br>
+		<label for="add2">Address 2:</label>
+		<input type="text" id="add2" name="add2" placeholder="Apt. 12" value="">
+		<br>
+		<label for="City">City:</label>
+		<input type="text" id="city" name="city" placeholder="City" value="" required>
+		<br>
+		<label for="state">State:</label>
+		<select name="state" id="state">
+		<option value="AL">AL</option>
+		<option value="AK">AK</option>
+		<option value="AZ">AZ</option>
+		<option value="AR">AR</option>
+		<option value="CA">CA</option>
+		<option value="CO">CO</option>
+		<option value="CT">CT</option>
+		<option value="DE">DE</option>
+		<option value="FL">FL</option>
+		<option value="GA">GA</option>
+		<option value="HI">HI</option>
+		<option value="ID">ID</option>
+		<option value="IL">IL</option>
+		<option value="IN">IN</option>
+		<option value="IA">IA</option>
+		<option value="KS">KS</option>
+		<option value="KY">KY</option>
+		<option value="LA">LA</option>
+		<option value="ME">ME</option>
+		<option value="MD">MD</option>
+		<option value="MA">MA</option>
+		<option value="MI">MI</option>
+		<option value="MN">MN</option>
+		<option value="MS">MS</option>
+		<option value="MO">MO</option>
+		<option value="MT">MT</option>
+		<option value="NE">NE</option>
+		<option value="NV">NV</option>
+		<option value="NH">NH</option>
+		<option value="NJ">NJ</option>
+		<option value="NM">NM</option>
+		<option value="NY">NY</option>
+		<option value="NC">NC</option>
+		<option value="ND">ND</option>
+		<option value="OH">OH</option>
+		<option value="OK">OK</option>
+		<option value="OR">OR</option>
+		<option value="PA">PA</option>
+		<option value="RI">RI</option>
+		<option value="SC">SC</option>
+		<option value="SD">SD</option>
+		<option value="TN">TN</option>
+		<option value="TX">TX</option>
+		<option value="UT">UT</option>
+		<option value="VT">VT</option>
+		<option value="VA">VA</option>
+		<option value="WA">WA</option>
+		<option value="WV">WV</option>
+		<option value="WI">WI</option>
+		<option value="WY">WY</option>
+		</select>
+		<br>
+		<label for="zip">Zip Code:</label>
+		<input type="text" id="zip" name="zip" placeholder="84044" value="" required>
+	<br>
+	<p class="order">Contact Information</p>
+		<label for="first">First Name:</label>
+		<input type="text" id="first" placeholder="John" value="" required>
+		<br>
+		<label for="last">Last Name:</label>
+		<input type="text" id="last" placeholder="Doe" value="" required>
+		<br>
+		<label for="email">Email:</label>
+		<input type="text" id="email" placeholder="test@email.com" value="" required>
+		<br>
+		<label for="Phone Number">Phone Number:</label>
+		<input type="text" id="phone-number" placeholder="801-867-5309" value="" required>
+		<br>
+		<label for="comments">Comment:</label>
+		<input type="text-areas" id="comments" placeholder="Comment" value="" required>
+		<br>
+		<br>
+		<input type="submit" value="Send">
+		<input type="reset" Value="Clear">
+	</form>
+	<p class="index">We take immense pride in the pizza we serve at Rat Boys Pizza
+		<br>
+		Please allow up to 30 minutes for any delivery
+		<br>
+		If you are not satisfied with your pizza it's on us
+		<br>
+		That's the Rat Boy Pizza promise
+	</p>
+	
+	<br>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+<body onload="startGame();">
+    
+    <h1 id="top-text">Tic Tac Toe</h1>
+            <h2 id="status"></h2>
+        <div id="game-board">
+            <div id="row-1">
+                <div class="cell" onclick="playGame(this, 1);"></div>
+                <div class="cell" onclick="playGame(this, 2);"></div>
+                <div class="cell" onclick="playGame(this, 4);"></div>
+            </div>
+            <div id="row-2">
+                <div class="cell" onclick="playGame(this, 8);"></div>
+                <div class="cell" onclick="playGame(this, 16);"></div>
+                <div class="cell" onclick="playGame(this, 32);"></div>
+            </div>
+            <div id="row-3">
+                <div class="cell" onclick="playGame(this, 64);"></div>
+                <div class="cell" onclick="playGame(this, 128);"></div>
+                <div class="cell" onclick="playGame(this, 256);"></div>
+            </div>
+        </div>
+        <button id="restart" onclick="startGame();">Restart Game</button>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+/**
+ * Style for RTL languages
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+body {
+	direction: rtl;
+}
+#main-navigation ul.chidren,
+#main-navigation ul.sub-menu {
+	text-align: right;
+}
+#main-navigation ul.children li ul,
+#main-navigation ul.sub-menu li ul {
+	right: 100%;
+}
+.mobile-title {
+	margin: 0 -35px 0 0;
+}
+a.mobile-select-menu {
+	float: right;
+	margin: 15px 15px 15px 0;
+}
+.post .entry-header .entry-shortmeta {
+	float: left;
+}
+@media screen and (max-width:600px) {
+	.post .entry-header .entry-shortmeta {
+		float: right;
+	}
+}
+.post .entry-header .entry-shortmeta .comments-link {
+	display: inline-block;
+	background: url(../img/comments.svg) center left no-repeat;
+	background-size: 16px;
+	padding: 0 0 0 16px;
+}
+#sidebar {
+	float: left;
+}
+#sidebar .dinky-widget_search #dinky-s {
+	background-position: center left;
+}
+.widget ul li {
+	list-style: none;
+	margin: 6px 10px 0 0;
+}
+.widget ul li:before {
+	content: "»";
+	margin: 0 -10px 0 10px;
+}
+#toTop {
+	right: auto;
+	left: 50px;
+}
+blockquote {
+	border-left: none;
+	border-right: 2px solid #00B3FF;
+}
+
+/**
+ * For wordpress.css
+ */
+
+.comments-list .avatar {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+
+/**
+ * For post-formats.css
+ */
+
+.post.format-aside:before,
+.post.format-audio:before,
+.post.format-chat:before,
+.post.format-gallery:before,
+.post.format-image:before,
+.post.format-link:before,
+.post.format-quote:before,
+.post.format-status:before,
+.post.format-video:before,
+.post.sticky:before {
+	transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}

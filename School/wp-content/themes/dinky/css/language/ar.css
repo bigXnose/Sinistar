@@ -1,0 +1,125 @@
+/**
+ * Style for Arabic (body.ar) language typography
+ *
+ * Package: Dinky
+ * Since: Dinky 1.4
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+/* Droid Arabic Naskh font face load from google by function.php */
+@font-face {
+	font-family: 'B Yekan';
+	src: url(../../font/BYekan-Regular.eot);
+	src: url(../../font/BYekan-Regular.eot?#iefix) format('embedded-opentype'), url(../../font/BYekan-Regular.woff) format('woff'), url(../../font/BYekan-Regular.ttf) format('truetype'), url(../../font/BYekan-Regular.svg#laleh) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*[lang=ar] {
+	font-family: "Droid Arabic Naskh", Arial;
+}
+body[lang=ar] label {
+	font-size: 11pt;
+}
+body[lang=ar] input {
+	font-family: "Droid Arabic Naskh", Arial;
+}
+body[lang=ar] #main-navigation,
+body[lang=ar] #mobile-navigation {
+	font-family: "B Yekan";
+	font-size: 12pt;
+}
+body[lang=ar] .mobile-title {
+	font-size: 14pt;
+}
+body[lang=ar] #title .title {
+	font-family: "Droid Arabic Naskh";
+	font-size: 60pt;
+	font-weight: 700;
+}
+body[lang=ar] #title .title:after {
+	font-family: "B Yekan";
+	font-size: 10pt;
+}
+body[lang=ar] #title .subtitle {
+	font-family: "Droid Arabic Naskh";
+	font-size: 20pt;
+	font-weight: 400;
+}
+body[lang=ar] #intro {
+	padding: 35px 10px 30px;
+	min-height: 85px;
+	font-size: 14pt;
+}
+body[lang=ar] #main .archive-title {
+	font-family: "B Yekan";
+	font-size: 16pt;
+}
+body[lang=ar] #main .navigation {
+	font-size: 11pt;
+}
+body[lang=ar] .post .entry-title {
+	font-size: 16pt;
+}
+body[lang=ar] .post .entry-header .entry-shortmeta {
+	font-size: 10pt;
+}
+body[lang=ar] .comment-body,
+body[lang=ar] .post .entry-summary,
+body[lang=ar] .post .entry-content {
+	font-size: 12pt;
+}
+body[lang=ar] .post .entry-meta {
+	font-size: 10pt;
+}
+body[lang=ar] .widget .entry-title {
+	font-size: 14pt;
+}
+body[lang=ar] .widget .entry-content {
+	font-size: 10pt;
+}
+body[lang=ar] #footer .copyright {
+	font-size: 10pt;
+}
+body[lang=ar] #footer .copyright-designer {
+	font-family: "Droid Arabic Naskh", Arial;
+	font-size: 8pt;
+}
+
+/**
+ * For wordpress.css
+ */
+
+body[lang=ar] #pings-title,
+body[lang=ar] #comments-title {
+	font-size: 11pt;
+}
+body[lang=ar] .commentlist li cite {
+	font-size: 1.1em;
+}
+body[lang=ar] .comment-body .comment-meta a {
+	font-size: 11pt;
+}
+
+/**
+ * For post-formats.css
+ */
+
+body[lang=ar] .gallery-caption {
+	font-size: 10pt;
+}
+
+/**
+ * For match other languages with this language
+ */
+
+body[lang=ar] *[lang=en-US] {
+	font-size: 12pt;
+}
+body[lang=ar] *[lang=fa-IR] {
+	font-size: 14pt;
+}

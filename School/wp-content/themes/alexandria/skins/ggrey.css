@@ -1,0 +1,233 @@
+.site-header {
+    background:url(images/ggrey/logo_section.png);
+}
+.site-slider{
+	background:url(images/ggrey/header.png);
+}
+.site-slider-slider-one-text-heading{
+	color:#fff;
+	text-shadow:none;
+}
+.site-slider-slider-one-text-description{
+	color:#fff;
+}
+.biz0ne-products-services-img{
+	background:#d3e5e5;
+}
+.biz0ne-quote{
+	border:0;
+	background:#d3e5e5;
+}
+.biz0ne-quote-text{
+	background:url(images/ggrey/quote.png) no-repeat;
+}
+.biz0ne-quote-name span{
+	background:#c7d8d8;
+}
+.more-link{
+	background:#d3e5e5;
+}
+.page-links a{
+	background:#d3e5e5;
+}
+.post .entry-title{
+	border-bottom:1px solid #d3e5e5;
+}
+.entry-meta{
+	border-bottom:1px solid #d3e5e5;	
+}
+.entry-meta-bottom{
+	border-top:1px solid #d3e5e5;
+}
+.entry-meta-bottom-item{
+	border-bottom:1px solid #d3e5e5;
+}
+.entry-meta-bottom-item a{
+	background:#d3e5e5;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+}
+.post-navigation{
+	background:#d3e5e5;
+}
+.post-navigation .nav-previous{
+	background:url(images/single_np_prev.png) no-repeat left;
+}
+.post-navigation .nav-next{
+	background:url(images/single_np_next.png) no-repeat right;
+}
+.paging-navigation .nav-previous{
+	background:#d3e5e5 url(images/single_np_prev.png) no-repeat left center;
+}
+.paging-navigation .nav-next{
+	background:#d3e5e5 url(images/single_np_next.png) no-repeat right center;
+}
+
+/* =Comments
+----------------------------------------------- */
+.comments-area{
+	background:#d3e5e5;
+	padding:5% 0;
+	margin:5% 0;
+}
+.comments-title{
+	width:90%;
+	margin:2% 5%;	
+}
+.comment-navigation{
+	width:90%;
+	margin:5% 5% !important;	
+}
+.comment-navigation .nav-previous a{
+	background:#c3c5c7;
+	padding:0.4em 1.5em;
+	display:inline-block;
+}
+.comment-navigation .nav-next a{
+	background:#c3c5c7;
+	padding:0.4em 1.5em;
+	display:inline-block;
+}
+.comment-list{
+	margin:2% 0;
+	list-style:none;	
+}
+.comment, .pingback, .trackback, .no-comments{
+	background:url(images/comments.png);
+	padding:4% 0;
+	width:90%;
+	margin:4% 5% 0 5%;	
+}
+.comment-body{
+	width:90%;
+	margin:0 5%;
+}
+.comment-author{
+	width:100%;
+}
+.comment-author cite{
+	background:url(images/ten.png);
+	padding:0.2em 1.5em;
+	display:inline-block;
+}
+.comment-author time{
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight:600;
+}
+.comment-author .edit-link{
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.comment-author-image{
+		
+}
+.comment-author-image img{
+	max-width:100%;
+	height:auto;
+}
+.comment-author-name{
+}
+.comment-author-name img{
+	float:left;
+	margin:0 20px 20px 0;
+}
+.comment-content{
+	clear:both;
+	width:100%;
+}
+.comment-body .reply a{
+	background:#000;
+	color:#fff;
+	padding:0.4em 2.0em;
+}
+.comment-list ul{
+	list-style:none;	
+}
+.comment-respond{
+	width:90%;
+	margin:7% 5% 2% 5%;	
+}
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+}
+
+
+
+
+.widget-area{
+	background:#d3e5e5;
+}
+.widget ul li{
+	border-bottom:1px solid #c7d8d8;
+}
+.wp-caption{
+	border:1px solid #c7d8d8;
+}
+.widget select{
+	background:#c7d8d8;
+}
+.search-field{
+	background:#c7d8d8 !important;
+}
+.footer-social {
+    background:#575f5f;
+}
+.site-footer {
+    background:url(images/ggrey/footer.png);
+}
+.site-info h3 a{
+	color:#fff;
+}
+.site-info p {
+    color:#fff;
+}
+.site-info p a {
+    color:#fff;
+}
+/* Footer Widgets */
+.site-footer .widget {
+	color:#fff;
+}
+.site-footer .widget a{
+	color:#fff;
+}
+.site-footer .widget h1 {
+	color:#fff;
+}
+.site-footer .widget ul li{
+	border-bottom:1px solid #3a4040;
+}
+.site-footer .widget ul li a{
+	color:#fff;
+}
+.site-footer .search-field{
+	background:#3a4040 !important;
+	color:#fff;
+}
+.site-footer .search-submit{
+	background:#000 !important;
+	color:#fff !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #3a4040;
+}
+
+.bizfour-products-services-item{
+	background:#d3e5e5;
+}
+.bizfour-products-services-img{
+	background:#d3e5e5;
+}
+.bizfour-quote{
+	border:1px solid #d3e5e5;
+}
+.bizfour-quote-text{
+	background:url(images/ggrey/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#d3e5e5;
+}

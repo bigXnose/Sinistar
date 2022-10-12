@@ -1,0 +1,243 @@
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+
+ul, ol {
+	margin: 0 2em 1.5em 0;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+blockquote cite {
+	float: left;
+}
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	float: left;
+	text-align: left;
+}
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: left;
+	margin: 0 20px 5px 0;
+}
+
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	text-align: right;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+.main-navigation ul ul li,
+.main-navigation ul ul li:hover {
+	margin: 0 -10px 0 0;
+}
+
+.main-navigation ul ul .parent > a:after {
+	margin: 0 .5em 0 0;
+}
+
+/* Small menu */
+.menu-toggle {
+	float: left;
+	text-align: left;
+}
+
+.main-small-navigation .menu li {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+/* =Layout
+----------------------------------------------- */
+
+#colophon {
+	text-align: right;
+}
+
+/* =Header
+----------------------------------------------- */
+
+#masthead img {
+	float: right;
+	margin-left: 1em;
+	margin-right: auto;
+}
+
+#masthead hgroup {
+	float: right;
+}
+
+.site-description {
+	float: right;
+}
+
+/* =Homepage
+----------------------------------------------- */
+
+.hentry {
+	float: right;
+}
+
+/* =Content
+----------------------------------------------- */
+
+.page-links span.active-link,
+.page-links a span.active-link {
+	margin: 0 0 3px 3px;
+}
+
+.page-header h1 {
+	float: right;
+}
+
+/* =Post Formats
+----------------------------------------------- */
+
+.single .format-status .status-avatar img {
+	float: right;
+	margin: 1.5em 0 0 2em;
+}
+
+/* =Media
+----------------------------------------------- */
+
+.wp-caption-text {
+	text-align: right;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.next-image {
+	float: left;
+}
+
+.site-content #nav-below .nav-previous a,
+.site-content #image-navigation .nav-previous a {
+	right: 0;
+	text-align: right;
+	left: auto;
+}
+
+.site-content #nav-below .nav-next a,
+.site-content #image-navigation .nav-next a {
+	left: 0;
+	text-align: left;
+	right: auto;
+}
+
+.comment-navigation .nav-next a,
+.comment-navigation .nav-previous a {
+	float: right;
+}
+
+.comment-navigation .nav-next a {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+.commentlist ul.children {
+	margin: 0 1.5em 0 0;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin: 0 0 0 1em;
+}
+
+.comment-content {
+	margin: 1.5em 65px 0 0;
+}
+
+a.comment-reply-link {
+	float: left;
+}
+
+a#cancel-comment-reply-link {
+	float: left;
+}
+
+.comments-link a {
+	float: left;
+}
+
+.comments-link .tail {
+	border-left: 8px solid transparent;
+	border-right: 0;
+	right: 12px;
+	left: auto;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input {
+	float: left;
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+.two.widget-column {
+	float: right;
+}
+
+.three.widget-column {
+	float: right;
+}
+
+/* Calendar */
+
+#wp-calendar #next {
+	text-align: left;
+}
+
+#wp-calendar #prev {
+	text-align: right;
+}

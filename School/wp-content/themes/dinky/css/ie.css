@@ -1,0 +1,15 @@
+/**
+ * Style for display good in Microsoft Internet Explorer
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+img {
+	-ms-interpolation-mode: bicubic;
+}

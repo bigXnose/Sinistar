@@ -1,0 +1,190 @@
+/* Going to make a small skatepark with the div tags */
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+/* Acts as the ground */
+.one
+{
+	position:absolute;
+	top: 600px;
+	border: solid 3px black;
+	width: 100%;
+	
+}
+
+/* Starting Ramp */
+.two
+{
+	position:absolute;
+	height: 100px;
+	width: 200px;
+	background-color: #ffdd8f;
+	left: 5px;
+	top: 500px;
+}
+
+/* Coping to the ramp */
+.three
+{
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	background-color: #696969;
+	border-radius: 50%;
+	top:498px;
+	left:199px;
+	z-index: 1;
+	
+}
+
+/* Down part of the ramp */
+.four
+{
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 0 0 140px;
+	border-color: transparent transparent transparent #ffdd8f;
+	top:499px;
+	left:201px;
+}
+
+/* Up part of the skate box leading to the rail */
+.five
+{
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-right: 150px solid #ffdd8f;
+	border-bottom: 0 solid transparent;
+	top:540px;
+	left: 650px;
+}
+
+/* The box that the rail is going to be on */
+
+.six
+{
+	position:absolute;
+	height: 75px;
+	width: 200px;
+	background-color: #ffdd8f;
+	left: 850px;
+	top: 525px;
+}
+
+/*post for rail */
+.seven
+{
+	position:absolute;
+	height: 30px;
+	width: 7px;
+	background-color: #696969;
+	left: 890px;
+	top: 496px;
+}
+
+/* post for rail #2 */
+.eight
+{
+	position:absolute;
+	height: 30px;
+	width: 7px;
+	background-color: #696969;
+	left: 1000px;
+	top: 496px;	
+}
+
+/* the rail itself */
+
+.nine
+{
+	position:absolute;
+	height: 8px;
+	width: 142px;
+	background-color: #696969;
+	left: 878px;
+	top: 488px;
+}
+
+/* Down ramp for the box */
+.ten
+{
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-left: 160px solid #ffdd8f;
+	border-bottom: 0 solid transparent;
+	top:540px;
+	left: 1100px;
+}
+
+/* cap to the rail to make it look rounded */
+.eleven
+{
+	position: absolute;
+	height: 8px;
+	width: 10px;
+	background-color: #696969;
+	border-radius: 10px 0 0 10px;
+	transform: translate (-50%, -50%);
+	top: 488px;
+	left: 870px;
+}
+
+/* cap to the rail to make it look rounded (right side) */
+.twelve
+{
+	position: absolute;
+	height: 8px;
+	width: 10px;
+	background-color: #696969;
+	border-radius: 0 10px 10px 0;
+	transform: translate (-50%, -50%);
+	top: 488px;
+	left: 1020px;
+}
+
+/* box for the right side */
+.thirteen
+{
+	position:absolute;
+	height: 100px;
+	width: 200px;
+	background-color: #ffdd8f;
+	right: 5px;
+	top: 500px;
+}
+
+/* coping to the right side ramp */
+.fourteen
+{
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	background-color: #696969;
+	border-radius: 50%;
+	top:498px;
+	right:199px;
+	z-index: 1;
+}
+
+/* up ramp for the right side */
+.fifteen
+{
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 140px 0 0;
+	border-color: transparent #ffdd8f transparent #ffdd8f;
+	top:499px;
+	right:201px;
+}

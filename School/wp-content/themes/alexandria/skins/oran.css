@@ -1,0 +1,63 @@
+.site-header {
+    background:url(images/oran/logo_section.png);
+}
+.site-slider{
+	background:url(images/oran/header.png);
+}
+.footer-social {
+    background:#dddfe2;
+}
+.site-footer {
+    background:url(images/oran/footer.png);
+}
+.site-info h3 a{
+	color:#000;
+}
+.site-info p {
+    color:#000;
+}
+.site-info p a {
+    color:#000;
+}
+.bizfour-products-services-item{
+	background:#dcdde0;
+}
+.bizfour-products-services-img{
+	background:#d7d8d9;	
+}
+.bizfour-quote{
+	border:1px solid #dcdde0;
+}
+.bizfour-quote-text{
+	background:url(images/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#dcdde0;
+}
+/* Footer Widgets */
+.site-footer .widget {
+	color:#000;
+}
+.site-footer .widget a{
+	color:#000;
+}
+.site-footer .widget h1 {
+	color:#000;
+}
+.site-footer .widget ul li{
+	border-bottom:1px solid #695555;
+}
+.site-footer .widget ul li a{
+	color:#000;
+}
+.site-footer .search-field{
+	background:#695555 !important;
+	color:#878786;
+}
+.site-footer .search-submit{
+	background:#000 !important;
+	color:#fff !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #695555;
+}

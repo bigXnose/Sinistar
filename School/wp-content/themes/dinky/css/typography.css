@@ -1,0 +1,227 @@
+/**
+ * Typography style
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+h1 {
+	display: block;
+	margin: 5px 0;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+h2 {
+	display: block;
+	margin: 5px 0;
+	font-size: 1.27em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+h3 {
+	display: block;
+	margin: 5px 0;
+	font-size: 1.17em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+h4 {
+	display: block;
+	margin: 5px 0;
+	font-size: 1em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+h5 {
+	display: block;
+	margin: 5px 0;
+	font-size: 0.83em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+h6 {
+	display: block;
+	margin: 5px 0;
+	font-size: 0.67em;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: bold;
+}
+blockquote {
+	margin: 10px 0 0;
+	padding: 5px 10px;
+	font-style: italic;
+	border-left: 2px solid #00B3FF;
+}
+blockquote p:first-child {
+	margin: 0 !important;
+}
+table {
+	border-bottom: 1px solid #EDEDED;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+td,
+th {
+	border: 1px solid #EDEDED;
+}
+dl {
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0 20px;
+}
+.post .entry-content ul,
+.comment-body ul {
+	margin: 0 40px;
+	list-style-type: disc;
+}
+.post .entry-content ul ul,
+.comment-body ul ul {
+	list-style-type: circle;
+}
+.post .entry-content ul ul ul,
+.comment-body ul ul ul {
+	list-style-type: square;
+}
+li {
+	display: list-item;
+}
+ol {
+	display: block;
+	margin: 0 45px;
+	list-style-type: decimal;
+}
+address {
+	font-style: italic;
+}
+.post .entry-content a {
+	color: #0085BD;
+}
+.post .entry-content a:hover {
+	color: #444;
+}
+.comment-body a {
+	color: #555;
+}
+abbr[title] {
+	border-bottom:1px dotted;
+}
+acronym[title] {
+	font-weight: bold;
+}
+big {
+	font-size: larger;
+}
+cite {
+	font-style: italic;
+}
+code, kbd, pre, samp, tt {
+	border: 1px #E6E6E6 solid;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #555;
+}
+s, strike, del {
+	text-decoration: line-through;
+}
+em {
+	font-style: italic;
+}
+u, ins {
+	text-decoration: underline;
+}
+q:before {
+	content: open-quote;
+}
+q:after {
+	content: close-quote;
+}
+b,
+strong{
+	font-weight:bold
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+var {
+	font-style: italic;
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
+dfn {
+	font-style: italic;
+}
+.wp-caption {
+	margin: 10px 0;
+	border: 1px #C0C0C0 solid;
+}
+.wp-caption img {
+	width: 100%;
+}
+.entry-caption,
+.wp-caption .wp-caption-text {
+	margin: 0 !important;
+	text-align: center;
+}
+.wp-caption.aligncenter {
+	text-align: center;
+}
+img.aligncenter {
+	display: block;
+	margin: auto;
+}
+.wp-caption.alignleft,
+img.alignleft {
+	float: left;
+	margin: 0 10px 0 0;
+	text-align: center;
+}
+.wp-caption.alignright,
+img.alignright {
+	float: right;
+	margin: 0 0 0 10px;
+}
+p.aligncenter {
+	text-align: center;
+}
+p.alignleft {
+	text-align: left;
+}
+p.alignright {
+	text-align: right;
+}
+p.alignjustify {
+	text-align: justify;
+}

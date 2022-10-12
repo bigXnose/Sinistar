@@ -1,0 +1,56 @@
+.site-slider{
+	background:url(images/grunge/header_bg.png);	
+}
+.biz0ne-quote {
+    background:#FAE1AB;
+}
+.widget-area, .site-footer {
+    background:#FAE1AB;
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget ul li{
+	border-bottom:1px solid #ebd19a;
+}
+.widget .search-field{
+	background:#ebd19a !important;
+}
+.widget .search-submit{
+	background:#c4ab77 !important;
+}
+.widget .wp-caption {
+	border: 1px solid #FAE1AB;
+}
+
+/* Footer Widgets */
+.site-footer .widget ul li{
+	border-bottom:1px solid #ebd19a;
+}
+.site-footer .search-field{
+	background:#ebd19a !important;
+}
+.site-footer .search-submit{
+	background:#c4ab77 !important;
+}
+.site-footer .wp-caption {
+	border: 1px solid #FAE1AB;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	background:#FAE1AB;
+}
+
+/* Search widget */
+.widget_search .search-submit {
+}
+
+.site-info h3 a {
+    color: #4b4b4b;
+}
+
+.footer-social{
+	background:#feecc4;
+}

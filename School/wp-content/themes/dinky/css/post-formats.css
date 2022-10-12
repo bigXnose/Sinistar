@@ -1,0 +1,194 @@
+/**
+ * Style for post formats
+ *
+ * Package: Dinky
+ * Since: Dinky 1.2
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+.post[class*="-attachment"] .entry-header .entry-title:before,
+.post.format-aside .entry-header .entry-title:before,
+.post.format-audio .entry-header .entry-title:before,
+.post.format-chat .entry-header .entry-title:before,
+.post.format-gallery .entry-header .entry-title:before,
+.post.format-image .entry-header .entry-title:before,
+.post.format-link .entry-header .entry-title:before,
+.post.format-quote .entry-header .entry-title:before,
+.post.format-status .entry-header .entry-title:before,
+.post.format-video .entry-header .entry-title:before,
+.post.sticky .entry-header .entry-title:before {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	content: "#";
+	font-size: 0;
+	margin: 0 7px 0;
+}
+.post[class*="-attachment"] .entry-header .entry-title,
+.post.image-attachment .entry-header .entry-title,
+.post.format-aside .entry-header .entry-title,
+.post.format-audio .entry-header .entry-title,
+.post.format-chat .entry-header .entry-title,
+.post.format-gallery .entry-header .entry-title,
+.post.format-image .entry-header .entry-title,
+.post.format-link .entry-header .entry-title,
+.post.format-quote .entry-header .entry-title,
+.post.format-status .entry-header .entry-title,
+.post.format-video .entry-header .entry-title,
+.post.sticky .entry-header .entry-title {
+	display: inline-block;
+	margin: 0 -5px 0;
+}
+.post[class*="-attachment"] .entry-header .entry-title:before {
+	background: url('../img/post-format/attachment.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-aside .entry-header .entry-title:before {
+	background: url('../img/post-format/aside.svg') center center no-repeat;
+	background-size: 26px;
+}
+.post.format-audio .entry-header .entry-title:before {
+	background: url('../img/post-format/audio.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-chat .entry-header .entry-title:before {
+	background: url('../img/post-format/chat.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-gallery .entry-header .entry-title:before {
+	background: url('../img/post-format/gallery.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-image .entry-header .entry-title:before {
+	background: url('../img/post-format/image.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-link .entry-header .entry-title:before {
+	background: url('../img/post-format/link.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-quote .entry-header .entry-title:before {
+	background: url('../img/post-format/quote.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-status .entry-header .entry-title:before {
+	background: url('../img/post-format/status.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.format-video .entry-header .entry-title:before {
+	background: url('../img/post-format/video.svg') center center no-repeat;
+	background-size: 32px;
+}
+.post.sticky .entry-header .entry-title:before {
+	background: url('../img/post-format/sticky.svg') center center no-repeat;
+	background-size: 32px;
+}
+
+/**
+ * For Galleries
+ */
+
+.gallery {
+	margin: 10px auto 10px auto !important;
+}
+.gallery-item {
+	position: relative;
+	margin: 2px !important;
+	overflow: hidden;
+}
+.gallery-item img {
+	border: 1px solid #BFBFBF !important;
+}
+.gallery-item img:hover {
+	border: 1px solid #0085BD !important;
+}
+.gallery-columns-1.gallery-size-medium,
+.gallery-columns-1.gallery-size-thumbnail,
+.gallery-columns-2.gallery-size-thumbnail,
+.gallery-columns-3.gallery-size-thumbnail {
+	display: table;
+	margin: 0 auto 20px;
+}
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-right: 0;
+}
+.gallery-columns-1 .gallery-item {
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+	max-width: calc(50% - 4px);
+	max-width: -webkit-calc(50% - 4px);
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33%;
+	max-width: calc(33% - 4px);
+	max-width: -webkit-calc(33% - 4px);
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+	max-width: calc(25% - 4px);
+	max-width: -webkit-calc(25% - 4px);
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 19%;
+	max-width: calc(20% - 4px);
+	max-width: -webkit-calc(20% - 4px);
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 15%;
+	max-width: calc(16.7% - 4px);
+	max-width: -webkit-calc(16.7% - 4px);
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 13%;
+	max-width: calc(14.28% - 4px);
+	max-width: -webkit-calc(14.28% - 4px);
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 11%;
+	max-width: calc(12.5% - 4px);
+	max-width: -webkit-calc(12.5% - 4px);
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 9%;
+	max-width: calc(11.1% - 4px);
+	max-width: -webkit-calc(11.1% - 4px);
+}
+.gallery-caption {
+	position: absolute;
+	bottom: 0;
+	left: 1px;
+	right: 1px;
+	width: 100%;
+	width: calc(100% - 2px);
+	width: -webkit-calc(100% - 2px);
+	max-height: 50%;
+	margin: 0;
+	padding: 2px 8px;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center !important;
+	color: #FFF;
+	transition: opacity 400ms ease;
+	-webkit-transition: opacity 400ms ease;
+}
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+}
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}

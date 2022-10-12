@@ -1,0 +1,87 @@
+.site-slider{
+	width:100%;
+	background:url(images/grunge/header_bg.png);
+}
+
+.biz0ne-quote {
+    background:#FAE1AB;
+}
+.widget-area, .site-footer {
+    background:#FAE1AB;
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget ul li{
+	border-bottom:1px solid #ebd19a;
+}
+.widget .search-field{
+	background:#ebd19a !important;
+}
+.widget .search-submit{
+	background:#c4ab77 !important;
+}
+.widget .wp-caption {
+	border: 1px solid #FAE1AB;
+}
+
+/* Footer Widgets */
+.site-footer .widget ul li{
+	border-bottom:1px solid #ebd19a;
+	color:#000;
+}
+.site-footer .widget ul li a{
+	color:#000;
+}
+.site-footer .widget, .site-footer .widget h1{
+	color:#000;
+}
+.site-footer .widget a{
+	color:#000;
+}
+.site-footer .search-field{
+	background:#ebd19a !important;
+	color:#000 !important;	
+}
+.site-footer .search-submit{
+	background:#c4ab77 !important;
+	color:#000 !important;
+	text-shadow:none;
+}
+.site-footer .wp-caption {
+	border: 1px solid #FAE1AB;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	background:#FAE1AB;
+}
+
+/* Search widget */
+.widget_search .search-submit {
+}
+
+.site-info h3 a {
+    color: #4b4b4b;
+}
+
+.footer-social{
+	background:#feecc4;
+}
+
+.bizfour-products-services-item{
+	background:#dcdde0;
+}
+.bizfour-products-services-img{
+	background:#d7d8d9;	
+}
+.bizfour-quote{
+	border:1px solid #dcdde0;
+}
+.bizfour-quote-text{
+	background:url(images/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#dcdde0;
+}

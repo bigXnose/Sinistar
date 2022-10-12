@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.alexandria-upgrade-text{
+	margin-bottom:0.7em;
+}
+.alexandria-upgrade-link{
+	margin-top:10px;
+	text-align: center;
+}
+.alexandria-upgrade-link a{
+	color:#fff;
+	background:#fc4646;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding:0.5em 1em;
+	border-bottom:1px solid #000;
+	font-weight:bold;
+	display: inline-block;
+	text-decoration: none;
+}

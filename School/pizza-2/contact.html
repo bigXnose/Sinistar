@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+	<style>
+	body {
+	background-color: #FFD8EC;
+	}
+	.message {
+	width: 500px;
+	height: 30px;
+	}
+	</style>
+</head>
+	<body>
+		<h1>Contact</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="order.html">Order</a></li>
+		</ul>
+		<form action="https://www.stonecoldprofessor.com/pizza-contact.php" method="post" target="_blank">
+			<input name="first-name" placeholder="First Name" type="text">
+			<br>
+			<input name="last-name" placeholder="Last Name" type="text">
+			<br>
+			<input name="email" Placeholder="Email" type="text">
+			<br>
+			<textarea name="message" class="Message" Placeholder="Message"></textarea>
+			<br>
+			<input type="submit" value="Send">
+			<input type="reset" Value="Clear">
+		</form>
+	</body>
+</html>

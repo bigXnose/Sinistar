@@ -1,0 +1,218 @@
+/**
+ * Style for use social icons
+ *
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+@font-face {
+	font-family: 'Social Icons';
+	src: url(../font/social-icons.eot);
+	src: url(../font/social-icons.eot?#iefix) format('embedded-opentype'), url(../font/social-icons.woff) format('woff'), url(../font/social-icons.ttf) format('truetype'), url(../font/social-icons.svg#laleh) format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.social-smugmug:before {
+	content: "\e000";
+}
+.social_square-smugmug:before {
+	content: "\e001";
+}
+.social_round-smugmug:before {
+	content: "\e002";
+}
+.social-dribbble:before {
+	content: "\e003";
+}
+.social_square-dribbble:before {
+	content: "\e004";
+}
+.social_round-dribbble:before {
+	content: "\e005";
+}
+.social-youtube:before {
+	content: "\e006";
+}
+.social_square-youtube:before {
+	content: "\e007";
+}
+.social_round-youtube:before {
+	content: "\e008";
+}
+.social-vimeo:before {
+	content: "\e009";
+}
+.social_square-vimeo:before {
+	content: "\e00a";
+}
+.social_round-vimeo:before {
+	content: "\e00b";
+}
+.social-twitter:before {
+	content: "\e00c";
+}
+.social_square-twitter:before {
+	content: "\e00d";
+}
+.social_round-twitter:before {
+	content: "\e00e";
+}
+.social-tumblr:before {
+	content: "\e00f";
+}
+.social_square-tumblr:before {
+	content: "\e010";
+}
+.social_round-tumblr:before {
+	content: "\e011";
+}
+.social-pinterest:before {
+	content: "\e012";
+}
+.social_square-pinterest:before {
+	content: "\e013";
+}
+.social_round-pinterest:before {
+	content: "\e014";
+}
+.social-linkedin:before {
+	content: "\e015";
+}
+.social_square-linkedin:before {
+	content: "\e016";
+}
+.social_round-linkedin:before {
+	content: "\e017";
+}
+.social-instagram:before {
+	content: "\e018";
+}
+.social_square-instagram:before {
+	content: "\e019";
+}
+.social_round-instagram:before {
+	content: "\e01a";
+}
+.social-google:before {
+	content: "\e01b";
+}
+.social_square-google:before {
+	content: "\e01c";
+}
+.social_round-google:before {
+	content: "\e01d";
+}
+.social-googleauth2:before {
+	content: "\e01b";
+}
+.social_square-googleauth2:before {
+	content: "\e01c";
+}
+.social_round-googleauth2:before {
+	content: "\e01d";
+}
+.social-foursquare:before {
+	content: "\e01e";
+}
+.social_square-foursquare:before {
+	content: "\e01f";
+}
+.social_round-foursquare:before {
+	content: "\e020";
+}
+.social-flickr:before {
+	content: "\e021";
+}
+.social_square-flickr:before {
+	content: "\e022";
+}
+.social_round-flickr:before {
+	content: "\e023";
+}
+.social-facebook:before {
+	content: "\e024";
+}
+.social_square-facebook:before {
+	content: "\e025";
+}
+.social_round-facebook:before {
+	content: "\e026";
+}
+.social-fivehundredpix:before {
+	content: "\e027";
+}
+.social_square-fivehundredpix:before {
+	content: "\e028";
+}
+.social_round-fivehundredpix:before {
+	content: "\e029";
+}
+.social-stumbleupon:before {
+	content: "\e02a";
+}
+.social_square-stumbleupon:before {
+	content: "\e02b";
+}
+.social_round-stumbleupon:before {
+	content: "\e02c";
+}
+.social-blogger:before {
+	content: "\e02d";
+}
+.social_square-blogger:before {
+	content: "\e02e";
+}
+.social_round-blogger:before {
+	content: "\e02f";
+}
+.social-reddit:before {
+	content: "\e030";
+}
+.social_square-reddit:before {
+	content: "\e031";
+}
+.social_round-reddit:before {
+	content: "\e032";
+}
+.social-share:before {
+	content: "\e033";
+}
+.social-heart:before {
+	content: "\e034";
+}
+.social-heart-outline:before {
+	content: "\e035";
+}
+.social-email:before {
+	content: "\e036";
+}
+.social_square-email:before {
+	content: "\e037";
+}
+.social_round-email:before {
+	content: "\e038";
+}
+.social-github:before {
+	content: "\e039";
+}
+.social_square-github:before {
+	content: "\e03b";
+}
+.social_round-github:before {
+	content: "\e03a";
+}
+.social-rss:before {
+	content: "\e03c";
+}
+.social_square-rss:before {
+	content: "\e03d";
+}
+.social_round-rss:before {
+	content: "\e03e";
+}

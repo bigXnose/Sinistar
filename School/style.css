@@ -1,0 +1,120 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-color: pink;
+}
+
+.page-title
+{
+ 
+    text-align: center;
+    animation: move 5s forwards;
+}
+
+@keyframes move 
+{
+from {font-size:40px;}
+to {font-size:80px;}
+}
+
+.description-1
+{
+    position: relative;
+    text-align: center;
+}
+
+.throw
+{
+    display:block;
+    margin: 0 auto;
+}
+
+.reflection
+{
+    text-align: center;
+    padding-top: 7%;
+    text-decoration: underline;
+}
+
+.reflection-text
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.indent
+{
+    margin-left:50px;
+}
+
+.nav2
+{
+    color:white;
+    list-style-type: none;
+    margin-left: 60px;
+    display: inline-block;
+}
+.home-nav
+{
+    color:white;
+    padding-right:30px;
+}
+
+.nav-link
+{
+    color:white;
+
+}
+
+a:hover
+{
+    background-color: darkcyan;
+    color: darkgrey;
+}
+
+@media (max-width: 767.98px)
+{
+    #desktop-nav
+    {
+        display:none;
+    }
+}
+
+@media (min-width: 767.98px)
+{
+    #mobile
+    {
+        display:none;
+    }
+}
+
+#sonic
+{
+    display: none;
+}
+
+.quote
+{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border:darkgrey 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.show-quote
+{
+    font-size: 30px;
+    text-align:center;
+}

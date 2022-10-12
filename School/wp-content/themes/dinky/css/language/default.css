@@ -1,0 +1,148 @@
+/**
+ * Style for default language typography
+ *
+ * Package: Dinky
+ * Since: Dinky 1.2 (in css/language.css at Dinky 1.0)
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki, http://misam.ir/
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github: http://github.com/misamplus/dinky-theme/
+*/
+
+/* font faces load from google by function.php */
+
+*[lang=en-US] {
+	font-family: "Open Sans", sans-serif;
+}
+label {
+	font-size: 11pt;
+}
+code,
+kbd,
+pre,
+samp,
+tt {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12pt;
+	line-height: 1.618;
+	letter-spacing: 0;
+	font-weight: 400;
+	font-style: normal;
+}
+#main-navigation,
+#mobile-navigation {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12pt;
+	line-height: 1.35em;
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 300;
+}
+.mobile-title {
+	font-size: 14pt;
+	line-height: 1.35em !important;
+}
+#title .title {
+	font-family: "Droid Serif", serif;
+	font-size: 60pt;
+	line-height: 1.0em;
+	font-weight: 700;
+}
+#title .title:after {
+	font-family: "Open Sans", sans-serif;
+	font-size: 10pt;
+}
+#title .subtitle {
+	font-family: "Droid Serif", serif;
+	font-size: 20pt;
+	font-weight: 700;
+}
+#intro {
+	padding: 35px 10px 30px;
+	min-height: 85px;
+	font-size: 15pt;
+	line-height: 1.35em;
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 300;
+}
+#main .archive-title {
+	font-size: 16pt;
+}
+#main .navigation {
+	font-size: 10pt;
+}
+.post .entry-title {
+	font-size: 15pt;
+	line-height: 2.2em;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+.post .entry-header .entry-shortmeta {
+	font-size: 10pt;
+}
+.comment-body,
+.post .entry-summary,
+.post .entry-content {
+	font-size: 12pt;
+	line-height: 1.618;
+	letter-spacing: 0;
+	font-weight: 400;
+	font-style: normal;
+}
+.post .entry-meta {
+	font-size: 10pt;
+}
+.widget .entry-title {
+	font-size: 14pt;
+	line-height: 1.35em;
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 300;
+}
+.widget .entry-content {
+	font-size: 11pt;
+	line-height: 1.418;
+	letter-spacing: 0;
+	font-weight: 400;
+	font-style: normal;
+}
+#footer .copyright {
+	font-size: 10pt;
+	line-height: 1.6em;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+#footer .copyright-designer {
+	font-family: serif;
+	font-size: 8pt;
+}
+
+/**
+ * For wordpress.css
+ */
+
+#pings-title,
+#comments-title {
+	font-size: 10pt;
+}
+.commentlist li cite {
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: 400;
+}
+.comment-body .comment-meta a {
+	font-size: 10pt;
+}
+
+/**
+ * For post-formats.css
+ */
+
+.gallery-caption {
+	font-size: 10pt;
+	line-height: 1.3em;
+	letter-spacing: 0;
+	font-weight: 400;
+}

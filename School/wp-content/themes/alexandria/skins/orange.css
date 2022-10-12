@@ -1,0 +1,19 @@
+.site-slider{
+	width:100%;
+	background:url(images/orange/header_overlay.png) top center no-repeat, url(images/orange/header_bg.jpg);
+}
+.bizfour-products-services-item{
+	background:#dcdde0;
+}
+.bizfour-products-services-img{
+	background:#d7d8d9;	
+}
+.bizfour-quote{
+	border:1px solid #dcdde0;
+}
+.bizfour-quote-text{
+	background:url(images/quote.png) top left no-repeat;		
+}
+.bizfour-quote-name span{
+	background:#dcdde0;
+}
