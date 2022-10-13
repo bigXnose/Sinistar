@@ -10,20 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 
-
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body style="background-color:pink;">
     <div class="topnav">
-        <a href="../index.html" class="active">Sinistar</a>
+      <a href="../../../index.html" class="active">Sinistar</a>
         <div id="myLinks">
-          <a href="index.html">Pogo Home</a>
-          <a href="sub/buddy/index.html">Buddy/Friend</a>
-          <a href="sub/inventory-main/index.html">Inventory/Strings - Main</a>
-          <a href="sub/inventory-secondary/index.html">Inventory/Strings - Secondary</a>
+          <a href="../../index.html">Pogo Home</a>
+          <a href="">Buddy/Friend</a>
+          <a href="../inventory-main/index.html">Inventory/Strings - Main</a>
+          <a href="../inventory-secondary/index.html">Inventory/Strings - Secondary</a>
           <!--
-            <a href="">Extra 1</a>
+          <a href="">Extra 1</a>
           <a href="">Extra 2</a>
           <a href="">Extra 3</a>
           <a href="">Extra 4</a>
@@ -36,6 +36,25 @@
         </a>
     </div>
 
-<h1 class="home">Pogo Home</h1>
+    <h1 class="buddy">Buddy/Friend</h1>
+ 
+
+ <div class="button-wrapper">
+ <p class="button-text" id="p1">Donkey Kong</p> 
+ <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+ <br>
+ <p class="button-text" id="p2">Hi, I'm the 2nd TEXT</p>
+ <br>
+ <button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+</div>
+   
+ <br>
+ <br>
+ <input class="textBox" type="text" id="" placeholder="Test" />
+ 
+
+   
+ <br>
+ <br>
 </body>
 </html>

@@ -43,7 +43,33 @@ body {
     color: white;
   }
 
-  .home {
+  .buddy {
     padding-top:.5%;
     padding-left:.7%;
   }
+
+  .textBox {
+   height:30px;
+   width:300px;
+ }
+
+ button {
+   height:30px;
+   width:150px;
+   border-radius:8px;
+   padding:10px;
+   font-size:20px;
+   font-family: 'Oswald', sans-serif;
+   height:52px;
+   cursor:pointer;
+   background-color:white;
+ }
+
+.button-wrapper {
+  padding-top:.5%;
+  padding-left:1.5%;
+}
+
+.button-text {
+  padding-bottom:.1%;
+}
