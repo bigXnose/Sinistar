@@ -42,3 +42,33 @@ body {
     background-color: black;
     color: white;
   }
+
+
+
+
+
+  button {
+    height:30px;
+    width:150px;
+    border-radius:8px;
+    padding:10px;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    height:52px;
+    cursor:pointer;
+    background-color:white;
+    
+  }
+ 
+ .button-wrapper {
+   padding-top:.5%;
+   padding-left:1.5%;
+ }
+ 
+ .button-text {
+   line-height: 14px;
+   height:25px;
+   display: table-cell;
+   vertical-align: bottom;
+   padding-bottom:1%;
+ }
