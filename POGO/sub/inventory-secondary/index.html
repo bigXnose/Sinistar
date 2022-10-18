@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pogo Home Page</title>
+    <title>Pogo Inventory Secondary</title>
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,53 +12,136 @@
 
 
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body style="background-color:pink;">
-    <div class="topnav">
-      <a href="../../../index.html" class="active">Sinistar</a>
-        <div id="myLinks">
-          <a href="../../index.html">Pogo Home</a>
-          <a href="../buddy/index.html">Buddy/Friend</a>
-          <a href="../inventory-main/index.html">Inventory/Strings - Main</a>
-          <a href="">Inventory/Strings - Secondary</a>
-          <!--
-          <a href="">Extra 1</a>
-          <a href="">Extra 2</a>
-          <a href="">Extra 3</a>
-          <a href="">Extra 4</a>
-          <a href="">Extra 5</a>
-          <a href="">Extra 6</a>
-          -->
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div>
+  <div class="topnav">
+    <a href="../../../index.html" class="active">Sinistar</a>
+      <div id="myLinks">
+        <a href="../../index.html">Pogo Home</a>
+        <a href="../buddy/index.html">Buddy/Friend</a>
+        <a href="">Inventory/Strings - Main</a>
+        <a href="../inventory-secondary/index.html">Inventory/Strings - Secondary</a>
+        <!--
+        <a href="">Extra 1</a>
+        <a href="">Extra 2</a>
+        <a href="">Extra 3</a>
+        <a href="">Extra 4</a>
+        <a href="">Extra 5</a>
+        <a href="">Extra 6</a>
+        -->
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
 
-    <h1>Inventory/Strings - Secondary</h1>
+  <h1 class="buddy">Inventory/Strings - Main</h1>
+<br>
+<!--
+<h3>Jump To</h3>
+<div class="row">
+<a href="#hide1" class="hide" id="hide1">^Expand</a>
+<a href="#show1" class="show" id="show1">^Collapse</a>
+<div class="list">
+<ul>
+<li><a href="#buddy2">Buddy 2</a></li>
+<li><a href="#buddy3">Buddy 3</a></li>
+<li><a href="#buddy4">Buddy 4<a></li>
+<li><a href="#gifts">Opening Gifts</a></li>
+</ul>
+</div>
+</div>
+-->
+
+<h2>Search Strings</h2>
+<h2>Sort by Dex number</h2>
+<div class="button-wrapper">
+<h2>Lucky</h2>
+<p class="subtext">Lucky needed on main account</p>
+<p class="button-text" id="p1">+Slowpoke, +Lapras, +Aerodactyl, +Girafarig, +Pineco, +Qwilfish, +Delibird, +Tyrogue, Magby, Suicune, Azurill, Mawile, Spinda, Tropius, Relicanth, Regice, +Shinx, Chingling, Munchlax, Carnivine, Regigigas, +Pansage, +Blitzle, +Sandile, Maractus, Sigilyph, +Zorua,  Emolga, Alomomola, +Axew, Cryogonal, Stunkfisk, Mienfoo, Mienshao, Druddigon, Bouffalant, +Larvesta, Cobalion, Terrakion, Tornadus, Thundurus</p> 
+<button onclick="copyToClipboard('#p1')">Copy</button>
+<h2>Mega 100%</h2>
+<p class="subtext">Mega capable pokemon needing a 100% on main account</p>
+<p class="button-text" id="p2">+Blastoise, +Alakazam, +Kangaskhan, +Pinsir, +Gyarados, +Aerodactyl, +Mewtwo, +Ampharos, +Scizor, +Heracross, +Blaziken, +Mawile, +Manectric, +Banette, +Absol, +Latias, +Latios, +Garchomp, +Abomasnow, +Pidgeot, +Slowbro, +Steelix, +Sceptile, +Swampert, +Sableye, +Sharpedo, +Camerupt, +Glalie, +Metagross, +Rayquaza, +Lopunny, +Diancie</p>
+<button onclick="copyToClipboard('#p2')">Copy</button>
+<h2>Meta</h2>
+<p class="button-text" id="p3">Kartana,Terrakion,+Metagross,+Machamp,Mewtwo,+Salamence,+Dragonite,Latios,+Gengar,+Charizard,+Mamoswine,Xurkitree,+Electivire,+Hariyama,+Venusaur,+Blastoise,+Alakazam,+Aerodactyl,+Manectric,+Abomasnow,Raikou,+Rampardos,+Swampert,Moltres,+Tyranitar,+Weavile,Landorus,+Rhyperior,+Lucario,Ho-Oh+Scizor,Genesect,+Pinsir,Nihilego,Dialga,+Garchomp,Groudon,+Gyarados,Darkrai,Entei,Reshiram,+Feraligator,Kyogre,Zarude,Zekrom,+Conkeldurr,+Magnezone,+Roserade,+Pidgeot,Lugia</p>
+<button onclick="copyToClipboard('#p3')">Copy</button>
+
+<!--
+<h2>Buddy 1 CP 2500-</h2>
+<p class="button-text" id="p4">Buddy1&CP2500-&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p> 
+<button onclick="copyToClipboard('#p4')">Copy</button>
 
 
-    <div class="button-wrapper">
-      <p class="button-text" id="p1">Donkey Kong</p> 
-      <button onclick="copyToClipboard('#p1')">Copy</button>
-      <p class="button-text" id="p2">Hi, I'm the 2nd TEXT</p>
-      <button onclick="copyToClipboard('#p2')">Copy</button>
-      <p class="button-text" id="p3">Hi, I'm the 3rd TEXT</p>
-      <button onclick="copyToClipboard('#p3')">Copy</button>
-      <br>
-     
-     
-     
-     </div>
-        
-      <br>
-      <br>
-      <input class="textBox" type="text" id="" placeholder="Test" />
-      
-     
-        
-      <br>
-      <br>
+<h2><a id="buddy2">Buddy 2</a></h2>
+<p class="button-text" id="p5">Buddy2&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p5')">Copy</button>
+<h2>Buddy 2 CP 0-1500</h2>
+<p class="button-text" id="p6">Buddy2&CP0-1500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p6')">Copy</button>
+<h2>Buddy 2 CP 1500-2500</h2>
+<p class="button-text" id="p7">Buddy2&CP1500-2500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p7')">Copy</button>
+<h2>Buddy 2 CP 2500-</h2>
+<p class="button-text" id="p8">Buddy2&CP2500-&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p> 
+<button onclick="copyToClipboard('#p8')">Copy</button>
+<h2><a id="buddy3">Buddy 3</a></h2>
+<p class="button-text" id="p9">Buddy3&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p9')">Copy</button>
+<h2>Buddy 3 CP 0-1500</h2>
+<p class="button-text" id="p10">Buddy3&CP0-1500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p10')">Copy</button>
+<h2>Buddy 3 CP 1500-2500</h2>
+<p class="button-text" id="p11">Buddy3&CP1500-2500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p11')">Copy</button>
+<h2>Buddy 3 CP 2500-</h2>
+<p class="button-text" id="p12">Buddy3&CP2500-&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p> 
+<button onclick="copyToClipboard('#p12')">Copy</button>
+<h2><a id="buddy4">Buddy 4</a></h2>
+<p class="button-text" id="p13">Buddy4&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p13')">Copy</button>
+<h2>Buddy 4 CP 0-1500</h2>
+<p class="button-text" id="p14">Buddy4&CP0-1500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p14')">Copy</button>
+<h2>Buddy 4 CP 1500-2500</h2>
+<p class="button-text" id="p15">Buddy4&CP1500-2500&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p>
+<button onclick="copyToClipboard('#p15')">Copy</button>
+<h2>Buddy 4 CP 2500-</h2>
+<p class="button-text" id="p16">Buddy4&CP2500-&!+Pidgeot&!+Alakazam&!+Gengar&!+Kangaskhan&!+Gyarados&!+Aerodactyl&!+Ampharos&!+Steelix&!+Scizor&!+Houndoom&!+Aggron&!+Manectric&!+Latios&!+Latias&!+Lopunny&!+lickitung&!+Kangaskhan&!+Mr.&!+Lapras&!Zapdos&!Moltres&!Mewtwo&!Mew&!Zarude&!+Meltan&!Kartana&!Xurkitree&!Landorus&!Terrakion&!+Elekid&!+Weavile&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Mudkip&!Ho-oh&!+Tyranitar&!Raikou&!+Aerodactyl&!+Mamoswine&!+Rhyhorn&!+Snover&!+Lucario&!+Cranidos&!Latios&!+Metagross&!+Bagon&!+Manectric&!+Makuhita&!+Mudkip& !Ho-oh&!+Tyranitar&!Raikou&!Mewtwo&!+Aerodactyl&!+Gengar&!+Machop&!+Abra&!+Blastoise&!+Charizard&!+Venusaur&!+slowbro&!+Axew&!+Tangela&!+Roserade&!+Ralts&!+Darkrai&!+Giratina&!+Rayquaza&!+Shieldon</p> 
+<button onclick="copyToClipboard('#p16')">Copy</button>
+<br>
+
+-->
+</div>
+
+<!--
+<br>
+<h2>Send gifts by sorting by Can Recieve Gift and go in order</h2>
+<br>
+<H2><a id="gifts">Opening Gifts</a></H2>
+<p class="subtext">Start by sorting by gifts then use the following search strings to assist</p>
+<div class="button-wrapper">
+<h2>Friend Level 4</h2>
+<p class="button-text" id="p22">Friendlevel4&!Lucky&Interactable&!dragonxshirt</p> 
+<button onclick="copyToClipboard('#p22')">Copy</button>
+<h2>Friend Level 0-2</h2>
+<p class="button-text" id="p23">Friendlevel0-2&Interactable</p>
+<button onclick="copyToClipboard('#p23')">Copy</button>
+<br>
+</div>
+ 
+<br>
+<br>
+-->
+
+<br>
+<input class="textBox" type="text" id="" placeholder="Test" />
+
+ 
+<br>
+<br>
 </body>
 </html>
