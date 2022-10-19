@@ -47,3 +47,22 @@ body {
     padding-top:.5%;
     padding-left:.7%;
   }
+
+  ul {
+    padding-left:2%;
+    list-style:none;
+  }
+
+  td {
+    width:40%;
+    vertical-align: top;
+  }
+
+  table {
+    width:80%;
+    padding-left:3%;
+  }
+
+  h2 {
+    padding-left:3%;
+  }
